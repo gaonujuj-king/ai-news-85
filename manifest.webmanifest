@@ -1,0 +1,10 @@
+{
+  "name": "배움의 파도",
+  "short_name": "배움의 파도",
+  "description": "AI와 교육의 최신 기사·영상 추천",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f2",
+  "theme_color": "#f8f7f2",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "learning-wave",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs",
+    "refresh": "node server.mjs --refresh"
+  }
+}
