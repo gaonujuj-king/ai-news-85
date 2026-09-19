@@ -7,7 +7,7 @@
   ],
   "functions": {
     "api/app.js": {
-      "includeFiles": ["docs/**"]
+      "includeFiles": "docs/**"
     }
   }
 }
