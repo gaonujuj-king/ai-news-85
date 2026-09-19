@@ -4,7 +4,9 @@ const WEEK = 7 * 24 * 60 * 60 * 1000;
 const cookieName = 'ai_insight_session';
 
 function secret() {
-  return process.env.AUTH_SECRET || '';
+  // The deployment-only password also signs the session cookie, so users need
+  // to configure a single environment variable for this personal app.
+  return process.env.APP_PASSWORD || '';
 }
 
 function sign(value) {

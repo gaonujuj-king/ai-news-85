@@ -34,13 +34,12 @@ GitHub Pages는 공개 사이트이므로 실제 비밀번호 보호를 제공�
 
 1. [Vercel](https://vercel.com/new)에 GitHub 계정으로 로그인하고 `ai-news-85` 저장소를 Import합니다.
 2. Framework Preset은 `Other`로 두고 Deploy합니다.
-3. Vercel 프로젝트의 **Settings → Environment Variables**에서 아래 두 값을 `Production`에 추가한 뒤 Redeploy합니다.
-   - `APP_PASSWORD`: 앱을 열 때 입력할 비밀번호
-   - `AUTH_SECRET`: 32자 이상인 임의의 긴 문자열
+3. Vercel 프로젝트의 **Settings → Environment Variables**에서 아래 값을 `Production`에 추가한 뒤 Redeploy합니다.
+   - `APP_PASSWORD`: 앱을 열 때 입력할 비밀번호 (12자 이상 권장)
 4. Vercel 주소를 열어 비밀번호 화면이 나타나는지 확인합니다.
 5. Vercel 배포를 사용하기로 했다면 GitHub의 **Settings → Pages**에서 Pages를 비활성화하세요. 기존 Pages 주소가 남아 있으면 보호되지 않은 앱 사본을 누구나 볼 수 있습니다.
 
-비밀번호와 `AUTH_SECRET`은 GitHub에 커밋하지 마세요. `.env.example`은 값의 형식만 보여 주는 예시 파일입니다.
+비밀번호는 GitHub에 커밋하지 마세요. `.env.example`은 값의 형식만 보여 주는 예시 파일입니다.
 
 ## 로컬 확인
 
