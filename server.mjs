@@ -4,9 +4,10 @@ import { createReadStream } from 'node:fs';
 import { extname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
-const cacheFile = join(root, 'data', 'recommendations.json');
-loadEnv();
+const projectRoot = resolve(fileURLToPath(new URL('.', import.meta.url)));
+// Local preview serves the same folder that GitHub Pages publishes.
+const root = join(projectRoot, 'public');
+const cacheFile = join(projectRoot, 'data', 'recommendations.json');
 const port = Number(process.env.PORT || 8787);
 const model = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
 const topics = (process.env.TOPICS || 'AI 교육,에듀테크,AI 에이전트,미래 교육,AI 리터러시').split(',').map(x => x.trim()).filter(Boolean);
@@ -70,4 +71,4 @@ const server = http.createServer(async (req, res) => {
   } catch (error) { json(res, url.pathname.startsWith('/api/') ? 500 : 404, { error: error.message }); }
 });
 if (process.argv.includes('--refresh')) { try { const result = await refresh(); console.log(`Updated ${result.items.length} recommendations at ${result.updatedAt}`); } catch (e) { console.error(e.message); process.exitCode = 1; } }
-else { server.listen(port, () => console.log(`배움의 파도: http://localhost:${port}`)); }
+else { server.listen(port, () => console.log(`AI 인사이트 데일리: http://localhost:${port}`)); }

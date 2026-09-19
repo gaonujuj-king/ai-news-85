@@ -1,0 +1,27 @@
+name: Update daily AI briefing
+
+on:
+  schedule:
+    # 07:30 Korea Standard Time (UTC+9)
+    - cron: '30 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/refresh-news.mjs
+      - name: Save the briefing
+        run: |
+          git config user.name "AI Insight Daily bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/latest.json
+          git diff --cached --quiet || git commit -m "chore: refresh daily briefing"
+          git push
