@@ -1,9 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/login", "destination": "/api/login" },
-    { "source": "/logout", "destination": "/api/logout" },
-    { "source": "/", "destination": "/api/app?path=index.html" },
-    { "source": "/:path*", "destination": "/api/app?path=:path*" }
+  "routes": [
+    { "src": "/login", "dest": "/api/login" },
+    { "src": "/logout", "dest": "/api/logout" },
+    { "src": "/", "dest": "/api/app?path=index.html" },
+    { "src": "/(.*)", "dest": "/api/app?path=$1" }
   ],
   "functions": {
     "api/app.js": {
