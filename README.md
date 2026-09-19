@@ -28,6 +28,20 @@ AI 트렌드, AI 에이전트, 바이브 코딩, 교육의 변화, 창업과 일
 
 브라우저 알림은 기기와 브라우저 정책에 따라 제한될 수 있습니다. 비용 없이 매일 확실하게 받아보려면, 우선 홈 화면의 앱을 열어 확인하는 방법이 가장 안정적입니다.
 
+## Vercel에서 비밀번호로 보호하기
+
+GitHub Pages는 공개 사이트이므로 실제 비밀번호 보호를 제공하지 않습니다. 이 저장소에는 무료 Vercel Hobby 배포에서도 동작하는 공유 비밀번호 로그인 기능이 포함되어 있습니다.
+
+1. [Vercel](https://vercel.com/new)에 GitHub 계정으로 로그인하고 `ai-news-85` 저장소를 Import합니다.
+2. Framework Preset은 `Other`로 두고 Deploy합니다.
+3. Vercel 프로젝트의 **Settings → Environment Variables**에서 아래 두 값을 `Production`에 추가한 뒤 Redeploy합니다.
+   - `APP_PASSWORD`: 앱을 열 때 입력할 비밀번호
+   - `AUTH_SECRET`: 32자 이상인 임의의 긴 문자열
+4. Vercel 주소를 열어 비밀번호 화면이 나타나는지 확인합니다.
+5. Vercel 배포를 사용하기로 했다면 GitHub의 **Settings → Pages**에서 Pages를 비활성화하세요. 기존 Pages 주소가 남아 있으면 보호되지 않은 앱 사본을 누구나 볼 수 있습니다.
+
+비밀번호와 `AUTH_SECRET`은 GitHub에 커밋하지 마세요. `.env.example`은 값의 형식만 보여 주는 예시 파일입니다.
+
 ## 로컬 확인
 
 ```powershell

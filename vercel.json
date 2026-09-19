@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/login", "destination": "/api/login" },
+    { "source": "/logout", "destination": "/api/logout" },
+    { "source": "/", "destination": "/api/app?path=index.html" },
+    { "source": "/:path*", "destination": "/api/app?path=:path*" }
+  ],
+  "functions": {
+    "api/app.js": {
+      "includeFiles": ["docs/**"]
+    }
+  }
+}
