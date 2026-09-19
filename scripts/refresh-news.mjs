@@ -66,7 +66,7 @@ const items = responses.flatMap(result => result.status === 'fulfilled' ? result
 
 if (!items.length) throw new Error('RSS에서 최신 콘텐츠를 가져오지 못했습니다.');
 const output = { updatedAt: new Date().toISOString(), items };
-const target = resolve('public/data/latest.json');
-await mkdir(resolve('public/data'), { recursive: true });
+const target = resolve('docs/data/latest.json');
+await mkdir(resolve('docs/data'), { recursive: true });
 await writeFile(target, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
 console.log(`Updated ${items.length} items: ${target}`);

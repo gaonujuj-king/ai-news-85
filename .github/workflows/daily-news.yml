@@ -22,6 +22,6 @@ jobs:
         run: |
           git config user.name "AI Insight Daily bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/latest.json
+          git add docs/data/latest.json
           git diff --cached --quiet || git commit -m "chore: refresh daily briefing"
           git push

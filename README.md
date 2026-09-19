@@ -4,7 +4,7 @@ AI 트렌드, AI 에이전트, 바이브 코딩, 교육의 변화, 창업과 일
 
 ## 무료 구조
 
-`Google News RSS → GitHub Actions(매일 07:30 KST) → public/data/latest.json → GitHub Pages → 휴대폰 홈 화면`
+`Google News RSS → GitHub Actions(매일 07:30 KST) → docs/data/latest.json → GitHub Pages → 휴대폰 홈 화면`
 
 - 공개 RSS의 제목, 출처, 날짜, 원문 링크를 수집합니다. 기사 전문을 복제하지 않습니다.
 - GitHub Actions가 하루 한 번 JSON 파일을 갱신하고 GitHub Pages가 그 파일을 제공합니다.
@@ -15,7 +15,7 @@ AI 트렌드, AI 에이전트, 바이브 코딩, 교육의 변화, 창업과 일
 
 1. GitHub에서 이 프로젝트를 **공개(public) 저장소**로 올립니다.
 2. 저장소의 **Settings → Pages**에서 `Deploy from a branch`를 선택합니다.
-3. 브랜치는 `main`, 폴더는 `/public`을 선택하고 저장합니다.
+3. 브랜치는 `main`, 폴더는 `/docs`를 선택하고 저장합니다.
 4. **Actions** 탭에서 `Update daily AI briefing`을 열고 `Run workflow`를 한 번 실행합니다. 첫 브리핑 JSON이 생성됩니다.
 5. Pages가 제공한 주소를 휴대폰에서 엽니다.
 

@@ -1,0 +1,10 @@
+{
+  "name": "AI 인사이트 데일리",
+  "short_name": "AI 데일리",
+  "description": "AI·에이전트·교육·창업의 최신 인사이트 브리핑",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8f7f2",
+  "theme_color": "#f8f7f2",
+  "icons": [{ "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
