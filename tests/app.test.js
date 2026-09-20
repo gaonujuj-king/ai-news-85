@@ -96,11 +96,11 @@ test('password login, protected assets, news, and logout', async t => {
 test('shared RSS collector retains sorting, deduplication and failure handling', async t => {
   const originalFetch = global.fetch;
   t.after(() => { global.fetch = originalFetch; });
-  global.fetch = async () => ({ ok: true, text: async () => `<rss><channel>${Array.from({ length: 21 }, (_, i) => `<item><title>생성형 AI ${i} - 출처</title><link>https://example.com/${i}</link><pubDate>${new Date(Date.UTC(2026, 8, i + 1)).toUTCString()}</pubDate><description>AI</description></item>`).join('')}</channel></rss>` });
+  global.fetch = async () => ({ ok: true, text: async () => `<rss><channel>${Array.from({ length: 21 }, (_, i) => `<item><title>생성형 AI 연구 ${i} - 출처</title><link>https://example.com/${i}</link><pubDate>${new Date(Date.now() - (21 - i) * 3600000).toUTCString()}</pubDate><description>AI</description><source url="https://www.yna.co.kr">연합뉴스</source></item>`).join('')}</channel></rss>` });
   const result = await latestBriefing();
-  assert.equal(result.items.length, 18);
-  assert.equal(result.items[0].title, '생성형 AI 20');
-  assert.equal(new Set(result.items.map(item => item.url)).size, 18);
+  assert.equal(result.items.length, 3);
+  assert.equal(result.items[0].title, '생성형 AI 연구 20');
+  assert.equal(new Set(result.items.map(item => item.url)).size, 3);
   global.fetch = async () => { throw new Error('offline'); };
   await assert.rejects(latestBriefing, /RSS/);
 });

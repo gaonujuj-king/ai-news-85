@@ -10,6 +10,7 @@ on:
     paths:
       - 'lib/briefing.js'
       - 'lib/video-feeds.js'
+      - 'lib/editorial-policy.js'
       - 'scripts/refresh-news.mjs'
       - '.github/workflows/daily-news.yml'
 

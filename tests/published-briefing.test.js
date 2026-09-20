@@ -3,6 +3,13 @@ const assert = require('node:assert/strict');
 const { createBriefingReader } = require('../lib/published-briefing');
 const data = time => ({ updatedAt: new Date(time).toISOString(), items: [{ title: 'AI 뉴스', url: 'https://example.com/news' }] });
 
+test('an explicitly curated empty briefing does not fall back to rejected content', async () => {
+  const reader = createBriefingReader({fetchImpl:async()=>({ok:true,json:async()=>({updatedAt:new Date().toISOString(),items:[],editorialPolicy:'quality-v1'})}),readBackup:async()=>{throw Error('must not use backup');}});
+  const result=await reader();
+  assert.equal(result.items.length,0);
+  assert.equal(result.delivery.fallback,false);
+});
+
 test('daily JSON changes become visible without redeployment after the cache expires', async () => {
   let time = Date.UTC(2026, 8, 20);
   let current = data(time);
