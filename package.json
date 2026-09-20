@@ -2,8 +2,11 @@
   "name": "ai-insight-daily",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
-    "start": "node server.mjs",
+    "test": "node --test",
     "refresh": "node scripts/refresh-news.mjs"
   }
 }

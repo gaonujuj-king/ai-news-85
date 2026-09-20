@@ -32,6 +32,7 @@
       <header class="top"><div class="brand">AI <em>인사이트</em></div><button class="icon-btn" aria-label="알림">🔔<i class="dot"></i></button></header>
       <div class="greeting"><h1>AI 시대를 읽고<br>나를 설계하는 5분.</h1><p>에이전트, 바이브 코딩, 교육과 창업의 최신 흐름</p></div>
       <div class="topic-row" aria-label="관심 주제"><button class="topic active">전체</button><button class="topic">AI 트렌드</button><button class="topic">AI 에이전트</button><button class="topic">바이브 코딩</button><button class="topic">교육의 변화</button><button class="topic">창업과 일</button></div>
+      <p id="briefingStatus" role="status" style="font-size:12px;color:var(--muted);line-height:1.5">최신 브리핑을 확인하고 있어요.</p>
       <div class="section-head"><h2>오늘의 한 가지</h2><button class="refresh" id="refreshButton">최신 브리핑</button></div>
       <article class="hero" id="heroRecommendation"><span class="tag">AI 인사이트 데일리</span><h3>오늘의 브리핑을<br>준비하고 있어요</h3><p>매일 아침 자동으로 최신 소식을 모읍니다.</p></article>
       <div class="section-head"><h2>지금 많이 보는 영상</h2><button class="more" data-go="videos">전체 보기 →</button></div>
@@ -67,8 +68,26 @@
     const ago=date=>{if(!date)return '새 콘텐츠';const h=Math.max(0,Math.round((Date.now()-new Date(date))/36e5));return h<1?'방금 전':h<24?`${h}시간 전`:`${Math.floor(h/24)}일 전`};
     function itemMarkup(item, video=false){const color=video?'m1':'n1', mark=video?'▷':'AI';return `<article class="feed-item">${video?`<a class="mini-thumb ${color}" href="${esc(item.url)}" target="_blank" rel="noreferrer">${mark}</a>`:`<div class="source-logo ${color}">${mark}</div>`}<div><a class="feed-title" style="display:block;color:inherit;text-decoration:none" href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.title)}</a><div class="feed-meta">${esc(item.source)} · ${ago(item.publishedAt)}</div>${item.summary?`<div class="feed-meta" style="margin-top:5px">${esc(item.summary)}</div>`:''}</div><button class="save" aria-label="저장">♡</button></article>`}
     function render(data){const items=data.items||[], videos=items.filter(x=>x.type==='video'), articles=items.filter(x=>x.type!=='video');const featured=items[0];if(featured){document.querySelector('#heroRecommendation').innerHTML=`<span class="tag">${esc(featured.reason||'오늘의 추천')}</span><h3>${esc(featured.title)}</h3><p>${esc(featured.summary||'AI와 교육의 흐름을 확인해 보세요.')}</p>`}if(videos.length){document.querySelector('#videoCards').innerHTML=videos.slice(0,3).map(x=>`<article class="card"><a class="thumb one" href="${esc(x.url)}" target="_blank" rel="noreferrer" style="text-decoration:none">▷</a><div class="card-copy"><div class="source">${esc(x.source)}</div><h3>${esc(x.title)}</h3><div class="time">${ago(x.publishedAt)}</div></div></article>`).join('');document.querySelector('.video-list').innerHTML=videos.map(x=>itemMarkup(x,true)).join('')}if(articles.length)document.querySelector('#articleFeed').innerHTML=articles.slice(0,6).map(x=>itemMarkup(x)).join('');}
-    async function loadRecommendations(){try{const r=await fetch(`./data/latest.json?updated=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();if(data.items?.length){render(data);return data}show('첫 자동 브리핑은 배포 후 곧 도착해요.')}catch{show('인터넷 연결 후 최신 브리핑을 다시 열어 주세요.')} }
-    document.querySelector('#refreshButton').addEventListener('click',async e=>{const b=e.currentTarget;b.disabled=true;b.textContent='불러오는 중…';const data=await loadRecommendations();if(data?.items?.length){show(`${data.items.length}개의 최신 콘텐츠를 불러왔어요.`);if(window.Notification && Notification.permission==='granted')new Notification('AI 인사이트 데일리',{body:`오늘의 브리핑 ${data.items.length}개를 확인하세요.`})}b.disabled=false;b.textContent='최신 브리핑'});
+    async function loadRecommendations(){
+      const status=document.querySelector('#briefingStatus');
+      try{
+        const r=await fetch(`./data/latest.json?updated=${Date.now()}`,{cache:'no-store'});
+        if(r.redirected && new URL(r.url).pathname==='/login'){window.location.assign('/login');return}
+        if(!r.ok)throw Error();
+        const data=await r.json();
+        if(!data.items?.length)throw Error();
+        render(data);
+        const updated=new Date(data.updatedAt);
+        const time=Number.isNaN(updated.getTime())?'확인 불가':updated.toLocaleString('ko-KR',{timeZone:'Asia/Seoul'});
+        status.textContent=`마지막 갱신: ${time} (한국 시간)`+(data.delivery?.fallback?' · 최신 데이터 확인에 실패해 이전 데이터를 표시합니다.':data.delivery?.stale?' · 갱신이 지연되고 있습니다.':' · 매일 오전 7:30 갱신 예정');
+        return data;
+      }catch{status.textContent='브리핑을 불러오지 못했습니다. 연결을 확인하고 다시 시도해 주세요.';show('최신 브리핑을 불러오지 못했어요.')}
+    }
+    document.querySelector('#refreshButton').addEventListener('click',async e=>{
+      const b=e.currentTarget;b.disabled=true;b.textContent='불러오는 중…';
+      try{const data=await loadRecommendations();if(data?.items?.length)show(data.delivery?.fallback?'이전 브리핑을 표시하고 있어요.':`${data.items.length}개의 콘텐츠를 확인했어요.`)}
+      finally{b.disabled=false;b.textContent='최신 브리핑'}
+    });
     loadRecommendations();
     if ('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
   </script>

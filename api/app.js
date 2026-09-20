@@ -1,6 +1,7 @@
 const { readFile } = require('node:fs/promises');
 const { join } = require('node:path');
-const { validSession } = require('./auth');
+const { validSession } = require('../lib/auth');
+const { publishedBriefing } = require('../lib/published-briefing');
 
 const files = new Map([
   ['index.html', 'text/html; charset=utf-8'],
@@ -11,17 +12,24 @@ const files = new Map([
 ]);
 
 module.exports = async (request, response) => {
+  response.setHeader('Cache-Control', 'private, no-store');
   if (!validSession(request)) {
     response.writeHead(303, { Location: '/login', 'Cache-Control': 'no-store' });
     response.end();
     return;
   }
   const requested = new URL(request.url, 'https://app.local').searchParams.get('path') || 'index.html';
-  const file = files.get(requested) ? requested : 'index.html';
+  if (!files.has(requested)) return response.status(404).send('파일을 찾을 수 없습니다.');
+  const file = requested;
   try {
+    if (file === 'data/latest.json') {
+      const briefing = await publishedBriefing();
+      response.setHeader('Content-Type', 'application/json; charset=utf-8');
+      response.setHeader('Cache-Control', 'no-store, max-age=0');
+      return response.status(200).json(briefing);
+    }
     const data = await readFile(join(process.cwd(), 'docs', file));
     response.setHeader('Content-Type', files.get(file));
-    response.setHeader('Cache-Control', file === 'data/latest.json' ? 'no-store' : 'private, max-age=3600');
     response.status(200).send(data);
   } catch {
     response.status(500).send('앱 파일을 불러오지 못했습니다.');
