@@ -40,6 +40,11 @@ test('password login, protected assets, news, and logout', async t => {
     assert.equal(res.headers.location, '/login');
   }
   assert.equal(calls, 0, 'unauthenticated requests must not collect news');
+  const worker = response();
+  await app({ url: '/api/app?path=sw.js', headers: {} }, worker);
+  assert.equal(worker.statusCode, 200, 'expired sessions must still receive worker updates');
+  assert.match(worker.headers['content-type'], /javascript/);
+  assert.match(worker.headers['cache-control'], /no-store/);
 
   let cookie;
   for (const body of [{ password: 'local-test-password' }, 'password=local-test-password', Buffer.from('password=local-test-password'), undefined]) {

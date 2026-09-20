@@ -89,7 +89,14 @@
       finally{b.disabled=false;b.textContent='최신 브리핑'}
     });
     loadRecommendations();
-    if ('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+    if ('serviceWorker' in navigator) {
+      let reloading=false;
+      const hadController=Boolean(navigator.serviceWorker.controller);
+      navigator.serviceWorker.addEventListener('controllerchange',()=>{
+        if(hadController && !reloading){reloading=true;window.location.reload()}
+      });
+      window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(registration=>registration.update()).catch(()=>{}));
+    }
   </script>
 </body>
 </html>

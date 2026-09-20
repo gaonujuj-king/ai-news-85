@@ -13,12 +13,14 @@ const files = new Map([
 
 module.exports = async (request, response) => {
   response.setHeader('Cache-Control', 'private, no-store');
-  if (!validSession(request)) {
+  const requested = new URL(request.url, 'https://app.local').searchParams.get('path') || 'index.html';
+  // The update script must remain reachable even when an old session expires.
+  // It contains no app content; every page and news request still requires login.
+  if (requested !== 'sw.js' && !validSession(request)) {
     response.writeHead(303, { Location: '/login', 'Cache-Control': 'no-store' });
     response.end();
     return;
   }
-  const requested = new URL(request.url, 'https://app.local').searchParams.get('path') || 'index.html';
   if (!files.has(requested)) return response.status(404).send('파일을 찾을 수 없습니다.');
   const file = requested;
   try {
