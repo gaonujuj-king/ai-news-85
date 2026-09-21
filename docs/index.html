@@ -35,7 +35,7 @@
       <p id="briefingStatus" role="status" style="font-size:12px;color:var(--muted);line-height:1.5">최신 브리핑을 확인하고 있어요.</p>
       <div class="section-head"><h2>오늘의 한 가지</h2><button class="refresh" id="refreshButton">최신 브리핑</button></div>
       <article class="hero" id="heroRecommendation"><span class="tag">AI 인사이트 데일리</span><h3>오늘의 브리핑을<br>준비하고 있어요</h3><p>매일 아침 자동으로 최신 소식을 모읍니다.</p></article>
-      <p class="feed-meta">공식 교육 채널과 언론사 원출처를 확인하고, 행사 안내·홍보성 제목을 제외합니다.</p><div class="section-head"><h2>교육·시사 영상</h2><button class="more" data-go="videos">전체 보기 →</button></div>
+      <p class="feed-meta">전문 채널의 AI 연구·해설 영상을 선별하며, 홍보·과장된 제목은 제외합니다.</p><div class="section-head"><h2>AI 연구·해설 영상</h2><button class="more" data-go="videos">전체 보기 →</button></div>
       <div class="cards" id="videoCards"><div class="empty">최신 영상을 확인하고 있어요.</div>
       </div>
       <div class="section-head"><h2>새로 읽을거리</h2><button class="more">모두 보기 →</button></div>
@@ -60,15 +60,15 @@
     function show(t){toast.textContent=t;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200)}
     const esc=s=>String(s||'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
     const ago=date=>{if(!date)return '새 콘텐츠';const h=Math.max(0,Math.round((Date.now()-new Date(date))/36e5));return h<1?'방금 전':h<24?`${h}시간 전`:`${Math.floor(h/24)}일 전`};
-    function itemMarkup(item, video=false){const color=video?'m1':'n1', mark=video?'▷':'AI';return `<article class="feed-item">${video?`<a class="mini-thumb ${color}" href="${esc(item.url)}" target="_blank" rel="noreferrer">${mark}</a>`:`<div class="source-logo ${color}">${mark}</div>`}<div><a class="feed-title" style="display:block;color:inherit;text-decoration:none" href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.title)}</a><div class="feed-meta">${esc(item.source)} · ${ago(item.publishedAt)}${item.editorial?.kind?` · ${esc(item.editorial.kind)}`:''}</div>${item.summary?`<div class="feed-meta" style="margin-top:5px">${esc(item.summary)}</div>`:''}</div><button class="save" aria-label="저장">♡</button></article>`}
+    function itemMarkup(item, video=false){const color=video?'m1':'n1', mark=video?'▷':'AI';return `<article class="feed-item">${video?`<a class="mini-thumb ${color}" href="${esc(item.url)}" target="_blank" rel="noreferrer">${mark}</a>`:`<div class="source-logo ${color}">${mark}</div>`}<div><a class="feed-title" style="display:block;color:inherit;text-decoration:none" href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.title)}</a><div class="feed-meta">${esc(item.source)}${item.language==='en'?' · 영어':''} · ${ago(item.publishedAt)}${item.editorial?.kind?` · ${esc(item.editorial.kind)}`:''}</div>${item.summary?`<div class="feed-meta" style="margin-top:5px">${esc(item.summary)}</div>`:''}</div><button class="save" aria-label="저장">♡</button></article>`}
     function render(data){
       const items=data.items||[], videos=items.filter(x=>x.type==='video'), articles=items.filter(x=>x.type!=='video');
       const featured=articles[0]||items[0];
       if(featured)document.querySelector('#heroRecommendation').innerHTML=`<span class="tag">오늘의 추천</span><h3>${esc(featured.title)}</h3><p>${esc(featured.summary||'원문에서 최신 소식을 확인하세요.')}</p>`;
       if(!featured)document.querySelector('#heroRecommendation').innerHTML='<span class="tag">오늘의 선별</span><h3>기준에 맞는 콘텐츠를 기다리고 있어요.</h3><p>추천 개수를 채우기 위해 홍보성 콘텐츠를 넣지 않습니다.</p>';
       const videoState=data.videoCollection?.status;
-      const empty=`<div class="empty">${videoState==='unavailable'||videoState==='partial'?'영상 수집이 원활하지 않습니다. 다음 갱신 때 다시 확인할게요.':'최근 30일 동안 선별 기준에 맞는 교육·시사 영상이 없습니다.'}</div>`;
-      document.querySelector('#videoCards').innerHTML=videos.length?videos.slice(0,3).map(x=>`<article class="card"><a class="thumb one" href="${esc(x.url)}" target="_blank" rel="noreferrer" aria-label="${esc(x.title)} 영상 보기" style="text-decoration:none">▷</a><div class="card-copy"><div class="source">${esc(x.source)}</div><h3><a href="${esc(x.url)}" target="_blank" rel="noreferrer" style="color:inherit;text-decoration:none">${esc(x.title)}</a></h3><div class="time">${ago(x.publishedAt)} 업로드</div></div></article>`).join(''):empty;
+      const empty=`<div class="empty">${videoState==='unavailable'||videoState==='partial'?'영상 수집이 원활하지 않습니다. 다음 갱신 때 다시 확인할게요.':'최근 30일 동안 선별 기준에 맞는 AI 연구·해설 영상이 없습니다.'}</div>`;
+      document.querySelector('#videoCards').innerHTML=videos.length?videos.slice(0,3).map(x=>`<article class="card"><a class="thumb one" href="${esc(x.url)}" target="_blank" rel="noreferrer" aria-label="${esc(x.title)} 영상 보기" style="text-decoration:none">▷</a><div class="card-copy"><div class="source">${esc(x.source)}${x.language==='en'?' · 영어':''}</div><h3><a href="${esc(x.url)}" target="_blank" rel="noreferrer" style="color:inherit;text-decoration:none">${esc(x.title)}</a></h3><div class="time">${ago(x.publishedAt)} 업로드</div></div></article>`).join(''):empty;
       document.querySelector('.video-list').innerHTML=videos.length?(videoState==='partial'?'<p class="feed-meta">일부 채널의 수집이 지연되어 확인된 영상만 표시합니다.</p>':'')+videos.map(x=>itemMarkup(x,true)).join(''):empty;
       document.querySelector('#articleFeed').innerHTML=articles.length?articles.slice(0,6).map(x=>itemMarkup(x)).join(''):'<div class="empty">선별 기준에 맞는 기사가 없습니다.</div>';
     }

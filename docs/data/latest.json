@@ -1,36 +1,6 @@
 {
-  "updatedAt": "2026-09-21T00:24:54.661Z",
+  "updatedAt": "2026-09-21T13:01:05.663Z",
   "items": [
-    {
-      "title": "AI가 인간 일자리 대체? 엇갈리는 분석 속 고용정책 방향은",
-      "source": "한국일보",
-      "sourceUrl": "https://www.hankookilbo.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBocGxoSHZNcDhPRlQ1bDNmNGo0VU5PMnVvNWhqeXZ2bGZyb3d4bVJ6RmZqcHdTbWVLOTFOaDNWMWQ2c1E0bk5tbGtCQmU2WmZoS2I0NXJOaWJ4QXFjMEdQcHlUWmdBMkVadzRXbkVoV1ZhR2fSAXNBVV95cUxQaHBsaEh2TXA4T0ZUNWwzZjRqNFVOTzJ1bzVoanl2dmxmcm93eG1SekZmanB3U21lSzkxTmgzVjFkNnNRNG5ObWxrQkJlNlpmaEtiNDVyTmlieEFxYzBHUHB5VFpnQTJFWnc0V25FaFdWYUdn?oc=5",
-      "publishedAt": "Sun, 20 Sep 2026 08:00:00 GMT",
-      "summary": "AI가 인간 일자리 대체? 엇갈리는 분석 속 고용정책 방향은 한국일보",
-      "topic": "AI 트렌드",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "한국일보 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "“안전 기준 협의” “경쟁 막는 카르텔” AI 개발 제한에 커지는 ‘독점’ 논란",
-      "source": "경향신문",
-      "sourceUrl": "https://www.khan.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBudzVlaGV6LUkxOTBqSW13XzZPX1VHaVlpcVhsbkRHZFNEUFRqS3FmOUlBYnA4VDkxQVJuQU5ZUk83bFlyVFBqNlZJSElpT01CTmVneXJFRGhOd9IBX0FVX3lxTFBaVHM3b2pLOERvZ2VSamRNbVRuUXEzLXY4TFdybWlxaV9La3RJYlRzanRwMXdSSmJCNmZTdUV1X25mRndnZEN5T3NndVdHVmE1VXc4RlN6dUJ0R2FGN0p3?oc=5",
-      "publishedAt": "Thu, 17 Sep 2026 11:31:00 GMT",
-      "summary": "“안전 기준 협의” “경쟁 막는 카르텔” AI 개발 제한에 커지는 ‘독점’ 논란 경향신문",
-      "topic": "AI 안전",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "경향신문 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
     {
       "title": "‘AI 위험성 경고’ 제이컵 콕슨...“무명의 수학천재에서 AI안전 상징으로”",
       "source": "한겨레",
@@ -43,21 +13,6 @@
       "editorial": {
         "kind": "해설·분석",
         "reason": "한겨레 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "아모데이·젠슨 황, AI 안전 놓고 충돌…\"3단계 안전 표준 만들자\" vs \"일률 규제 안돼\"",
-      "source": "JTBC",
-      "sourceUrl": "https://news.jtbc.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPTFlSSFUzYTYxMko3WkZ2NlM2NXhwRF8tMTZxX0hLdlQwMGZfbTVZeTFWY0pER2UySnNwZ2tpQWFZR05FX2p4bDl6aks0OGZ2X1d5TA?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 08:09:00 GMT",
-      "summary": "아모데이·젠슨 황, AI 안전 놓고 충돌…\"3단계 안전 표준 만들자\" vs \"일률 규제 안돼\" news.jtbc.co.kr",
-      "topic": "AI 안전",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "JTBC 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
     },
@@ -77,56 +32,121 @@
       }
     },
     {
-      "title": "야생의 본능마저 완전히 파괴됐다. 유례없는 대재앙이 휩쓸고 간 숲에서 굶주린 동물들｜30억 마리를 불태우고 130발의 총탄을 난사하며 탄생한 '탄소 지옥'｜다큐프라임｜#골라듄다큐",
-      "source": "EBSDocumentary (EBS 다큐)",
-      "url": "https://www.youtube.com/watch?v=V8qZvdxwV18",
-      "publishedAt": "2026-09-20T10:30:33+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCFCtZJTuJhE18k8IXwmXTYQ",
+      "title": "AI 안전기준 공조에 스타트업들 \"경쟁 막는 규제장벽\" 반발",
+      "source": "연합뉴스",
+      "sourceUrl": "https://www.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KX2JweldaV0JvZktYRXlZUkpXOFVVVjB3cEQ2R0h5Z29yS1JKWERzWmJuUWRpU0tybEZuSHZnblB6OS1jSWZjQy1IOTg2SkdKU2hEbV91b25VRDDSAWBBVV95cUxOQzBmeVh2OFotbzNaRlkyMEtZZ2duZjZnanpWd1FWeGpYMTVURF9VOTlQMVRqYzlzSEZMenNRcElBMGh0R3AzMW5RY2gzb0xSZmNFS1g5Rm1uX2QxYVlROVA?oc=5",
+      "publishedAt": "Wed, 16 Sep 2026 00:09:22 GMT",
+      "summary": "AI 안전기준 공조에 스타트업들 \"경쟁 막는 규제장벽\" 반발 연합뉴스",
+      "topic": "AI 안전",
+      "type": "article",
       "editorial": {
-        "kind": "교육·교양",
-        "reason": "EBS 다큐 공식 채널 · 교육·해설 중심 선별",
+        "kind": "해설·분석",
+        "reason": "연합뉴스 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
     },
     {
-      "title": "그림에 명상과 철학을 담았다. 색 하나로 전세계에서 사랑받은 한국 단색화의 거장 박서보 화백이 직접 말하는 예술 철학과 작업 과정｜다큐프라임｜#골라듄다큐",
-      "source": "EBSDocumentary (EBS 다큐)",
-      "url": "https://www.youtube.com/watch?v=zuPU8mAVSn0",
-      "publishedAt": "2026-09-20T08:00:13+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCFCtZJTuJhE18k8IXwmXTYQ",
+      "title": "아모데이·젠슨황, AI안전 충돌…\"표준 세워야\" \"규제 불필요\"(종합)",
+      "source": "연합뉴스",
+      "sourceUrl": "https://www.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14Q3dSWGpqU1VINGZwWXV1UzRDOXdKa0hqY2RZaHNIb1FrMVFPREpzcDdQRFZYb2FVOFA5WHE5YThkSGN0SnFlTDZTZ25RNzk5UzQwcDhxQkplY0XSAWBBVV95cUxPdGRpb0RFTWl5TU84UWVnV1MzRmhDNU9hWmY0VkFTYVdyZzQ5RTljdWplTEgxQW1GTUEwTXBiTG5xWG50QjdIRWZOU2gtbmppVzVreXl5LWJ3akNTYVNZcU0?oc=5",
+      "publishedAt": "Tue, 15 Sep 2026 20:51:09 GMT",
+      "summary": "아모데이·젠슨황, AI안전 충돌…\"표준 세워야\" \"규제 불필요\"(종합) 연합뉴스",
+      "topic": "AI 안전",
+      "type": "article",
       "editorial": {
-        "kind": "교육·교양",
-        "reason": "EBS 다큐 공식 채널 · 교육·해설 중심 선별",
+        "kind": "해설·분석",
+        "reason": "연합뉴스 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
     },
     {
-      "title": "\"누구나 인간답게 죽을 권리가 있습니다\" 의료인류학자 송병기 교수가 들려주는 호스피스와 마지막 순간의 이야기 #몰아볼교양",
+      "title": "“AI로 풀었어요” 수십 년 걸려 풀던 생명의 비밀, AI가 다 풀어버리자 현직 연구자 반응 #몰아볼교양",
       "source": "EBSCulture (EBS 교양)",
-      "url": "https://www.youtube.com/watch?v=CWDuWfotXTM",
-      "publishedAt": "2026-09-19T12:00:37+00:00",
+      "url": "https://www.youtube.com/watch?v=4OP6wcNsB5Q",
+      "publishedAt": "2026-09-21T11:30:05+00:00",
       "summary": "",
       "topic": "영상",
       "type": "video",
       "channelId": "UCl_tB4AqPkkxuYcJQHz6dMw",
+      "language": "ko",
       "editorial": {
-        "kind": "교육·교양",
-        "reason": "EBS 교양 공식 채널 · 교육·해설 중심 선별",
-        "policy": "quality-v1"
+        "kind": "AI 연구·해설",
+        "reason": "EBS 교양 · 교육 방송 · AI 주제 선별",
+        "policy": "ai-video-v2"
+      }
+    },
+    {
+      "title": "AI 잘 쓰는 사람들은 왜 까만창을 켤까? Codex·Claude Code·Gemini CLI | 버튼 없는 까만창이 더 많은 일을 할 수 있는 이유",
+      "source": "안될공학 - IT 테크 신기술",
+      "url": "https://www.youtube.com/watch?v=rpUNfIsLyGI",
+      "publishedAt": "2026-09-17T11:02:38+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
+      "language": "ko",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
+        "policy": "ai-video-v2"
+      }
+    },
+    {
+      "title": "갑작스레 AI 속도 늦추자... 투자는 확대?  ‘카르텔’ 논란의 진짜 쟁점 | 중국은 멈추지 않는다",
+      "source": "안될공학 - IT 테크 신기술",
+      "url": "https://www.youtube.com/watch?v=O6eCcA9fFg8",
+      "publishedAt": "2026-09-14T07:39:12+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
+      "language": "ko",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
+        "policy": "ai-video-v2"
+      }
+    },
+    {
+      "title": "How AI is transforming weather prediction",
+      "source": "Google DeepMind",
+      "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
+      "publishedAt": "2026-09-09T16:10:39+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "language": "en",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
+        "policy": "ai-video-v2"
+      }
+    },
+    {
+      "title": "AlphaGenome Atlas: Understanding the human genome",
+      "source": "Google DeepMind",
+      "url": "https://www.youtube.com/watch?v=U0aToL5C-bQ",
+      "publishedAt": "2026-09-08T13:58:27+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "language": "en",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
+        "policy": "ai-video-v2"
       }
     }
   ],
   "videoCollection": {
     "status": "ok",
-    "checkedAt": "2026-09-21T00:24:54.107Z",
-    "successfulSources": 3,
-    "sourceCount": 3
+    "checkedAt": "2026-09-21T13:01:04.697Z",
+    "successfulSources": 6,
+    "sourceCount": 6
   },
   "editorialPolicy": "quality-v1"
 }

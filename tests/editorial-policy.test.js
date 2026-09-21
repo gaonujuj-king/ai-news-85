@@ -29,6 +29,12 @@ test('opinions are labelled, repeated titles are deduplicated and publisher domi
 test('educational channels still exclude travel, shorts, previews and incidental school mentions', () => {
   for(const title of ['역대급 AI 강의 ㄷㄷ','교육 강연 예고','시골 여행 한국기행','고등학교 때부터 K팝에 빠진 외국인의 결혼 이야기'])assert.equal(educationalVideo(title),false,title);
   assert.equal(educationalVideo('AI 교육 연구 강연','<link href="https://www.youtube.com/shorts/AAAAAAAAAAA"/>'),false);
-  assert.equal(educationalVideo('인류학자 교수가 들려주는 인간의 존엄과 호스피스'),true);
-  assert.equal(educationalVideo('미술의 철학｜다큐프라임'),true);
+  assert.equal(educationalVideo('인류학자 교수가 들려주는 인간의 존엄과 호스피스'),false);
+  assert.equal(educationalVideo('미술의 철학｜다큐프라임'),false);
+  assert.equal(educationalVideo('인공지능이 교육을 바꾸는 원리｜다큐프라임'),true);
+  assert.equal(educationalVideo('How AI is transforming weather prediction'),true);
+  assert.equal(educationalVideo('2026 Conference on Physics and AI: Research lecture'),true);
+  assert.equal(educationalVideo('The mathematics of AI uncertainty'),true);
+  assert.equal(educationalVideo('Gemini launch: introducing our AI product'),false);
+  assert.equal(educationalVideo('미술의 철학｜다큐프라임','<description>다음 영상은 AI 강연입니다</description>'),false);
 });
