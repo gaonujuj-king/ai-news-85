@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-09-20T09:35:35.539Z",
+  "updatedAt": "2026-09-21T00:24:54.661Z",
   "items": [
+    {
+      "title": "AI가 인간 일자리 대체? 엇갈리는 분석 속 고용정책 방향은",
+      "source": "한국일보",
+      "sourceUrl": "https://www.hankookilbo.com",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBocGxoSHZNcDhPRlQ1bDNmNGo0VU5PMnVvNWhqeXZ2bGZyb3d4bVJ6RmZqcHdTbWVLOTFOaDNWMWQ2c1E0bk5tbGtCQmU2WmZoS2I0NXJOaWJ4QXFjMEdQcHlUWmdBMkVadzRXbkVoV1ZhR2fSAXNBVV95cUxQaHBsaEh2TXA4T0ZUNWwzZjRqNFVOTzJ1bzVoanl2dmxmcm93eG1SekZmanB3U21lSzkxTmgzVjFkNnNRNG5ObWxrQkJlNlpmaEtiNDVyTmlieEFxYzBHUHB5VFpnQTJFWnc0V25FaFdWYUdn?oc=5",
+      "publishedAt": "Sun, 20 Sep 2026 08:00:00 GMT",
+      "summary": "AI가 인간 일자리 대체? 엇갈리는 분석 속 고용정책 방향은 한국일보",
+      "topic": "AI 트렌드",
+      "type": "article",
+      "editorial": {
+        "kind": "해설·분석",
+        "reason": "한국일보 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
     {
       "title": "“안전 기준 협의” “경쟁 막는 카르텔” AI 개발 제한에 커지는 ‘독점’ 논란",
       "source": "경향신문",
@@ -9,21 +24,6 @@
       "publishedAt": "Thu, 17 Sep 2026 11:31:00 GMT",
       "summary": "“안전 기준 협의” “경쟁 막는 카르텔” AI 개발 제한에 커지는 ‘독점’ 논란 경향신문",
       "topic": "AI 안전",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "경향신문 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "결국 ‘사회적 대화’로 넘긴 노동 특례…핵심 쟁점은 ‘화이트칼라 이그젬션’",
-      "source": "경향신문",
-      "sourceUrl": "https://www.khan.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iUHdfVFVTc2FJTF93c0VxNnhhd3l6cjFHMUNvU1N6N3R0TXctN013UVhPTjh6aldnN3I0VjJGNWhwanMyYl83X0psZllLcThLS2VGNmNlMTNjZ9IBX0FVX3lxTE1mRWczdnN0ckp2RUJkVmN1UGNSd1l2NWFqYlZoUWdqUUFkdmQwQmh3d0RsWF9VTnFVVHJkZE9xdWkzUG1GUlc5ekdWN0ZDYjJoNEI1ajIxYmV0VGhDZkpR?oc=5",
-      "publishedAt": "Tue, 15 Sep 2026 08:17:00 GMT",
-      "summary": "결국 ‘사회적 대화’로 넘긴 노동 특례…핵심 쟁점은 ‘화이트칼라 이그젬션’ 경향신문",
-      "topic": "시사·사회",
       "type": "article",
       "editorial": {
         "kind": "해설·분석",
@@ -47,27 +47,12 @@
       }
     },
     {
-      "title": "\"인류 파멸\" 경고에 소송까지…日서도 AI 위험성 우려 확산",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9idmcyZ2phZmpndlhTWTBfQTRrU2ExV0taNjFLWnVxZjhzUU81SlU0cG1sUnEyV3JJS3p5UHBfU2N2RFVGVzB5LTlhTjZiUWZWYWxlcFdnd0R5Z25VREpvRtIBYEFVX3lxTE9idmcyZ2phZmpndlhTWTBfQTRrU2ExV0taNjFLWnVxZjhzUU81SlU0cG1sUnEyV3JJS3p5UHBfU2N2RFVGVzB5LTlhTjZiUWZWYWxlcFdnd0R5Z25VREpvRg?oc=5",
-      "publishedAt": "Thu, 17 Sep 2026 06:13:11 GMT",
-      "summary": "\"인류 파멸\" 경고에 소송까지…日서도 AI 위험성 우려 확산 연합뉴스",
-      "topic": "AI 트렌드",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "연합뉴스 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
       "title": "아모데이·젠슨 황, AI 안전 놓고 충돌…\"3단계 안전 표준 만들자\" vs \"일률 규제 안돼\"",
       "source": "JTBC",
       "sourceUrl": "https://news.jtbc.co.kr",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPTFlSSFUzYTYxMko3WkZ2NlM2NXhwRF8tMTZxX0hLdlQwMGZfbTVZeTFWY0pER2UySnNwZ2tpQWFZR05FX2p4bDl6aks0OGZ2X1d5TA?oc=5",
       "publishedAt": "Wed, 16 Sep 2026 08:09:00 GMT",
-      "summary": "아모데이·젠슨 황, AI 안전 놓고 충돌…\"3단계 안전 표준 만들자\" vs \"일률 규제 안돼\" JTBC",
+      "summary": "아모데이·젠슨 황, AI 안전 놓고 충돌…\"3단계 안전 표준 만들자\" vs \"일률 규제 안돼\" news.jtbc.co.kr",
       "topic": "AI 안전",
       "type": "article",
       "editorial": {
@@ -92,7 +77,22 @@
       }
     },
     {
-      "title": "\"미술은 손재주가 아닙니다\" 전세계에서 사랑받은 한국 단색화의 거장 박서보 화백이 직접 말하는 예술 철학｜다큐프라임｜#골라듄다큐",
+      "title": "야생의 본능마저 완전히 파괴됐다. 유례없는 대재앙이 휩쓸고 간 숲에서 굶주린 동물들｜30억 마리를 불태우고 130발의 총탄을 난사하며 탄생한 '탄소 지옥'｜다큐프라임｜#골라듄다큐",
+      "source": "EBSDocumentary (EBS 다큐)",
+      "url": "https://www.youtube.com/watch?v=V8qZvdxwV18",
+      "publishedAt": "2026-09-20T10:30:33+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCFCtZJTuJhE18k8IXwmXTYQ",
+      "editorial": {
+        "kind": "교육·교양",
+        "reason": "EBS 다큐 공식 채널 · 교육·해설 중심 선별",
+        "policy": "quality-v1"
+      }
+    },
+    {
+      "title": "그림에 명상과 철학을 담았다. 색 하나로 전세계에서 사랑받은 한국 단색화의 거장 박서보 화백이 직접 말하는 예술 철학과 작업 과정｜다큐프라임｜#골라듄다큐",
       "source": "EBSDocumentary (EBS 다큐)",
       "url": "https://www.youtube.com/watch?v=zuPU8mAVSn0",
       "publishedAt": "2026-09-20T08:00:13+00:00",
@@ -124,7 +124,7 @@
   ],
   "videoCollection": {
     "status": "ok",
-    "checkedAt": "2026-09-20T09:35:34.999Z",
+    "checkedAt": "2026-09-21T00:24:54.107Z",
     "successfulSources": 3,
     "sourceCount": 3
   },
