@@ -4,6 +4,17 @@ const { selectArticles, educationalVideo } = require('../lib/editorial-policy');
 const now = Date.UTC(2026,8,20);
 const article = (title, extra={}) => ({title, source:'연합뉴스',sourceUrl:'https://www.yna.co.kr',url:'https://news.google.com/rss/articles/'+encodeURIComponent(title),publishedAt:new Date(now-3600000).toISOString(),topic:'AI 트렌드', ...extra});
 
+test('structured expert interviews require an AI title and AI chapters; paid promotion is excluded', () => {
+  assert.equal(educationalVideo('AI 연구로 생명의 비밀을 다 풀어버렸다'), false);
+  assert.equal(educationalVideo('AI 원리로 새로운 경제 폭발한다'), false);
+  const context = { interview:true, description:'00:30 AI 시대의 질문\n04:10 인공지능과 직업\n비즈니스 협찬 문의: contact@example.com' };
+  assert.equal(educationalVideo('AI 시대의 진로 | 백영재 인류학자', '', context), true);
+  assert.equal(educationalVideo('AI 시대의 진로', '', context), false);
+  assert.equal(educationalVideo('미래의 진로 | 백영재 인류학자', '', context), false);
+  assert.equal(educationalVideo('AI 시대의 진로 | 백영재 인류학자', '', {...context,description:'00:30 AI 시대\n04:10 도서 안내'}), false);
+  assert.equal(educationalVideo('AI 기술 원리 분석', '', {description:'이 영상은 기업의 지원을 통해 제작되었습니다.'}), false);
+});
+
 test('exclude event announcements, PR and sensational titles even from known publishers', () => {
   for(const title of ['AI 교육 정책 포럼 개최','AI 교육 역량 강화 연수 실시','AI 신제품 출시, 혁신의 이유','AI 연구 업무협약 체결','AI 연구 수상 소식','충격! AI 연구의 진실']) {
     assert.equal(selectArticles([article(title)],now).length,0,title);
