@@ -1,13 +1,28 @@
 {
-  "updatedAt": "2026-09-22T01:02:54.339Z",
+  "updatedAt": "2026-09-23T00:50:57.233Z",
   "items": [
+    {
+      "title": "前구글 안전담당 임원 \"AI, SNS보다 아동에 더 위험\"",
+      "source": "연합뉴스",
+      "sourceUrl": "https://www.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CWWtSM2owMGJsWW8tVVhpQ0ZHUy04R25SU0ZUYWVUbWRBcUYyUmMzQy05MnFBMlZSTTZORUIzeDRLTDNsUVJaUlVtNDNvcXlIUDFXNE5JanJJbXE5M2hnS9IBYEFVX3lxTE9CWWtSM2owMGJsWW8tVVhpQ0ZHUy04R25SU0ZUYWVUbWRBcUYyUmMzQy05MnFBMlZSTTZORUIzeDRLTDNsUVJaUlVtNDNvcXlIUDFXNE5JanJJbXE5M2hnSw?oc=5",
+      "publishedAt": "Tue, 22 Sep 2026 22:12:54 GMT",
+      "summary": "前구글 안전담당 임원 \"AI, SNS보다 아동에 더 위험\" 연합뉴스",
+      "topic": "AI 안전",
+      "type": "article",
+      "editorial": {
+        "kind": "해설·분석",
+        "reason": "연합뉴스 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
     {
       "title": "한·싱가포르 교육장관 만난다…AI교육·학교정책 논의",
       "source": "연합뉴스",
       "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqTUw1SGhzSkVFYUpZNE54WFFUSEt0TFl3V1ZjRGtoVWJ0NThoNU5aVUFuczBkN1ZZTVBoYlNFOWR2aTRYa0MzcXZYMHlDbnBOTkhNTF85THA2Zlk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03R0dEZHJneGNRNU1NcjBiUi1VTXhSTmkyNnZjSG1lM3VSb0d1Z0RYV0tsa1FvZjhaV0lScWFuRUNPeEpqUzNKaG1tOUExeERYMEZXSDBfLWVRU1l1alk4Q9IBYEFVX3lxTE03R0dEZHJneGNRNU1NcjBiUi1VTXhSTmkyNnZjSG1lM3VSb0d1Z0RYV0tsa1FvZjhaV0lScWFuRUNPeEpqUzNKaG1tOUExeERYMEZXSDBfLWVRU1l1alk4Qw?oc=5",
       "publishedAt": "Tue, 22 Sep 2026 00:36:28 GMT",
-      "summary": "한·싱가포르 교육장관 만난다…AI교육·학교정책 논의 yna.co.kr",
+      "summary": "한·싱가포르 교육장관 만난다…AI교육·학교정책 논의 연합뉴스",
       "topic": "교육의 변화",
       "type": "article",
       "editorial": {
@@ -47,40 +62,106 @@
       }
     },
     {
-      "title": "AI 안전기준 공조에 스타트업들 \"경쟁 막는 규제장벽\" 반발",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KX2JweldaV0JvZktYRXlZUkpXOFVVVjB3cEQ2R0h5Z29yS1JKWERzWmJuUWRpU0tybEZuSHZnblB6OS1jSWZjQy1IOTg2SkdKU2hEbV91b25VRDDSAWBBVV95cUxOQzBmeVh2OFotbzNaRlkyMEtZZ2duZjZnanpWd1FWeGpYMTVURF9VOTlQMVRqYzlzSEZMenNRcElBMGh0R3AzMW5RY2gzb0xSZmNFS1g5Rm1uX2QxYVlROVA?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 00:09:22 GMT",
-      "summary": "AI 안전기준 공조에 스타트업들 \"경쟁 막는 규제장벽\" 반발 yna.co.kr",
-      "topic": "AI 안전",
-      "type": "article",
+      "title": "Jev가 AI 틈새 기술? 구글이 바로 반응합니다… 빠른 응답에 돈을 내는 이유 | 세레브라스, Groq도 절대 안되는 기술이라 했죠",
+      "source": "안될공학 - IT 테크 신기술",
+      "url": "https://www.youtube.com/watch?v=qV5p14OSgXU",
+      "publishedAt": "2026-09-22T07:11:05+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
+      "language": "ko",
       "editorial": {
-        "kind": "해설·분석",
-        "reason": "연합뉴스 원출처 · 해설·분석",
-        "policy": "quality-v1"
+        "kind": "AI 연구·해설",
+        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
+        "policy": "ai-video-v3"
       }
     },
     {
-      "title": "아모데이·젠슨황, AI안전 충돌…\"표준 세워야\" \"규제 불필요\"(종합)",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14Q3dSWGpqU1VINGZwWXV1UzRDOXdKa0hqY2RZaHNIb1FrMVFPREpzcDdQRFZYb2FVOFA5WHE5YThkSGN0SnFlTDZTZ25RNzk5UzQwcDhxQkplY0XSAWBBVV95cUxPdGRpb0RFTWl5TU84UWVnV1MzRmhDNU9hWmY0VkFTYVdyZzQ5RTljdWplTEgxQW1GTUEwTXBiTG5xWG50QjdIRWZOU2gtbmppVzVreXl5LWJ3akNTYVNZcU0?oc=5",
-      "publishedAt": "Tue, 15 Sep 2026 20:51:09 GMT",
-      "summary": "아모데이·젠슨황, AI안전 충돌…\"표준 세워야\" \"규제 불필요\"(종합) yna.co.kr",
-      "topic": "AI 안전",
-      "type": "article",
+      "title": "그 직원 학습한 에이전트만 남기고 직원 해고한다면, 그 에이전트는 누구의 것인가? (김서준 해시드 대표)",
+      "source": "티타임즈TV",
+      "url": "https://www.youtube.com/watch?v=ejtSOizIcjQ",
+      "publishedAt": "2026-09-19T22:00:21+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCelFN6fJ6OY6v8pbc_SLiXA",
+      "language": "ko",
       "editorial": {
-        "kind": "해설·분석",
-        "reason": "연합뉴스 원출처 · 해설·분석",
-        "policy": "quality-v1"
+        "kind": "AI 강연·인터뷰(의견 포함)",
+        "reason": "티타임즈TV · 산업 해설·인터뷰 · AI 주제 선별",
+        "policy": "ai-video-v3"
+      }
+    },
+    {
+      "title": "내 아이도 나도 이렇게 바뀌어야 합니다, AI 시대 새로운 성공 공식 I AI 인재 커리어 경계인 | 백영재 인류학자 경영 인 | 세바시",
+      "source": "세바시 강연 Sebasi Talk",
+      "url": "https://www.youtube.com/watch?v=-_bkgYMJLU8",
+      "publishedAt": "2026-09-19T07:00:04+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCgheNMc3gGHLsT-RISdCzDQ",
+      "language": "ko",
+      "editorial": {
+        "kind": "AI 강연·인터뷰(의견 포함)",
+        "reason": "세바시 강연 · 강연·인터뷰 · AI 주제 선별",
+        "policy": "ai-video-v3"
+      }
+    },
+    {
+      "title": "AI 드라마 PD를 '뽑기사'라고 부르는 이유",
+      "source": "티타임즈TV",
+      "url": "https://www.youtube.com/watch?v=ox1U_mjXimA",
+      "publishedAt": "2026-09-18T09:00:20+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCelFN6fJ6OY6v8pbc_SLiXA",
+      "language": "ko",
+      "editorial": {
+        "kind": "AI 강연·인터뷰(의견 포함)",
+        "reason": "티타임즈TV · 산업 해설·인터뷰 · AI 주제 선별",
+        "policy": "ai-video-v3"
+      }
+    },
+    {
+      "title": "AI 잘 쓰는 사람들은 왜 까만창을 켤까? Codex·Claude Code·Gemini CLI | 버튼 없는 까만창이 더 많은 일을 할 수 있는 이유",
+      "source": "안될공학 - IT 테크 신기술",
+      "url": "https://www.youtube.com/watch?v=rpUNfIsLyGI",
+      "publishedAt": "2026-09-17T11:02:38+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
+      "language": "ko",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
+        "policy": "ai-video-v3"
+      }
+    },
+    {
+      "title": "How AI is transforming weather prediction",
+      "source": "Google DeepMind",
+      "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
+      "publishedAt": "2026-09-09T16:10:39+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "language": "en",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
+        "policy": "ai-video-v3"
       }
     }
   ],
   "videoCollection": {
-    "status": "unavailable",
-    "checkedAt": "2026-09-22T01:02:53.777Z",
-    "successfulSources": 0,
+    "status": "ok",
+    "checkedAt": "2026-09-23T00:50:56.465Z",
+    "successfulSources": 10,
     "sourceCount": 10
   },
   "editorialPolicy": "quality-v1"
