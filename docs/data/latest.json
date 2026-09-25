@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-24T00:44:43.416Z",
+  "updatedAt": "2026-09-25T00:41:36.376Z",
   "items": [
     {
       "title": "AI가 인간 일자리 대체? 엇갈리는 분석 속 고용정책 방향은",
       "source": "한국일보",
       "sourceUrl": "https://www.hankookilbo.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBocGxoSHZNcDhPRlQ1bDNmNGo0VU5PMnVvNWhqeXZ2bGZyb3d4bVJ6RmZqcHdTbWVLOTFOaDNWMWQ2c1E0bk5tbGtCQmU2WmZoS2I0NXJOaWJ4QXFjMEdQcHlUWmdBMkVadzRXbkVoV1ZhR2fSAXNBVV95cUxQaHBsaEh2TXA4T0ZUNWwzZjRqNFVOTzJ1bzVoanl2dmxmcm93eG1SekZmanB3U21lSzkxTmgzVjFkNnNRNG5ObWxrQkJlNlpmaEtiNDVyTmlieEFxYzBHUHB5VFpnQTJFWnc0V25FaFdWYUdn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94dGZvWVVTTnFjOHlHUDZZV2FLVEhmZU4zN21rUkZXY3NfdXh3TFBsY1FwcU5XOEM5MVV2LXBTdmF6UUx0T3hsQzdtczFxLWxpSUY1SVFsamdoSWxHREwxaFhfakZNcTlTYndOWGtn0gFzQVVfeXFMUGhwbGhIdk1wOE9GVDVsM2Y0ajRVTk8ydW81aGp5dnZsZnJvd3htUnpGZmpwd1NtZUs5MU5oM1YxZDZzUTRuTm1sa0JCZTZaZmhLYjQ1ck5pYnhBcWMwR1BweVRaZ0EyRVp3NFduRWhXVmFHZw?oc=5",
       "publishedAt": "Sun, 20 Sep 2026 08:00:00 GMT",
       "summary": "AI가 인간 일자리 대체? 엇갈리는 분석 속 고용정책 방향은 한국일보",
       "topic": "AI 트렌드",
@@ -13,6 +13,21 @@
       "editorial": {
         "kind": "해설·분석",
         "reason": "한국일보 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
+    {
+      "title": "오픈AI 에이전트, 호주 보건 통계 시스템 침입…“정부 해킹 첫 사례”",
+      "source": "한겨레",
+      "sourceUrl": "https://www.hani.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb1V3UkNWSHZCM3BMWk42QjA0dGlHM1pPV0FBZWZEVDNtTmFhcTRySUtOTW84VVIxNmtKUHJZLWN2MXdNUlBYa0c1ODZUOWIxeEZ5REk5RXJ6QWNOdm1hN1JqR2hwSkRmSnRDbjV1eW1UaFZoelhiQkhfOXM1cEdYVkpn?oc=5",
+      "publishedAt": "Thu, 24 Sep 2026 05:20:00 GMT",
+      "summary": "오픈AI 에이전트, 호주 보건 통계 시스템 침입…“정부 해킹 첫 사례” 한겨레",
+      "topic": "AI 에이전트",
+      "type": "article",
+      "editorial": {
+        "kind": "연구·자료 보도",
+        "reason": "한겨레 원출처 · 연구·자료 보도",
         "policy": "quality-v1"
       }
     },
@@ -28,6 +43,21 @@
       "editorial": {
         "kind": "연구·자료 보도",
         "reason": "MBC 원출처 · 연구·자료 보도",
+        "policy": "quality-v1"
+      }
+    },
+    {
+      "title": "미국인 10명 중 9명, AI에 \"기대보다 우려\"…규제 강화 요구",
+      "source": "연합뉴스",
+      "sourceUrl": "https://www.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82YU4yQWdzcmhYaHNaTkRsc0NSVlNMbmRqTjBSTldoRUtodVFrbm5jUlR5b3otT0VLSTlsdldCcDNwSkhHR0dEQXFxTnhCUlB5YUtTZklnZGdZOHPSAWBBVV95cUxQYml6ekh2YVNvVzZmVUpRcjFZREJhZGxfQnB0bE01dEg0WTVkTUh1emhXNE5QRkVPYlBHSG1VNnFsRFZJQ0lWelRiUURkRXFFQ09TdDZudWFnanIxTEhrWWg?oc=5",
+      "publishedAt": "Thu, 24 Sep 2026 11:00:35 GMT",
+      "summary": "미국인 10명 중 9명, AI에 \"기대보다 우려\"…규제 강화 요구 연합뉴스",
+      "topic": "AI 트렌드",
+      "type": "article",
+      "editorial": {
+        "kind": "해설·분석",
+        "reason": "연합뉴스 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
     },
@@ -52,7 +82,7 @@
       "sourceUrl": "https://news.kbs.co.kr",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04Qk1MNVd6T2dSWDRSOW9JZEJqVmJFcWVFMkMydnVZUkpycUVLQ0JGSEpyVjdnUS1oY3pTVHZVenJtZVNOczJTWEtQeEVzTW9kalJBazFIcHZSTThBMEgycTZQQWMwdw?oc=5",
       "publishedAt": "Tue, 22 Sep 2026 22:33:00 GMT",
-      "summary": "전 구글 안전 담당 임원 “AI, SNS 보다 아동에 더 위험” news.kbs.co.kr",
+      "summary": "전 구글 안전 담당 임원 “AI, SNS 보다 아동에 더 위험” KBS 뉴스",
       "topic": "AI 안전",
       "type": "article",
       "editorial": {
@@ -69,21 +99,6 @@
       "publishedAt": "Tue, 22 Sep 2026 22:12:54 GMT",
       "summary": "前구글 안전담당 임원 \"AI, SNS보다 아동에 더 위험\" 연합뉴스",
       "topic": "AI 안전",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "연합뉴스 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "한·싱가포르 교육장관 만난다…AI교육·학교정책 논의",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqTUw1SGhzSkVFYUpZNE54WFFUSEt0TFl3V1ZjRGtoVWJ0NThoNU5aVUFuczBkN1ZZTVBoYlNFOWR2aTRYa0MzcXZYMHlDbnBOTkhNTF85THA2ZlnSAWBBVV95cUxNN0dHRGRyZ3hjUTVNTXIwYlItVU14Uk5pMjZ2Y0htZTN1Um9HdWdEWFdLbGtRb2Y4WldJUnFhbkVDT3hKalMzSmhtbTlBMXhEWDBGV0gwXy1lUVNZdWpZOEM?oc=5",
-      "publishedAt": "Tue, 22 Sep 2026 00:36:28 GMT",
-      "summary": "한·싱가포르 교육장관 만난다…AI교육·학교정책 논의 연합뉴스",
-      "topic": "교육의 변화",
       "type": "article",
       "editorial": {
         "kind": "해설·분석",
@@ -205,7 +220,7 @@
   ],
   "videoCollection": {
     "status": "ok",
-    "checkedAt": "2026-09-24T00:44:42.952Z",
+    "checkedAt": "2026-09-25T00:41:35.882Z",
     "successfulSources": 10,
     "sourceCount": 10
   },
