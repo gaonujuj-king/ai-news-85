@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T00:41:36.376Z",
+  "updatedAt": "2026-09-26T00:46:41.182Z",
   "items": [
     {
       "title": "AI가 인간 일자리 대체? 엇갈리는 분석 속 고용정책 방향은",
@@ -13,6 +13,21 @@
       "editorial": {
         "kind": "해설·분석",
         "reason": "한국일보 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
+    {
+      "title": "전북 미래교육연구소, 정책 연구 과제 모집",
+      "source": "KBS",
+      "sourceUrl": "https://news.kbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03aUdWeS1SOHNsWUZTdEUycDZmRkZQMDBPaFAzcGxfcUY1MlRsbDA3MU5qd1VWLUEzU196dHowRF81a2sxaG9JNDRGaFlhbERfSGZLQ1F4NmpIcEk?oc=5",
+      "publishedAt": "Thu, 24 Sep 2026 22:48:00 GMT",
+      "summary": "전북 미래교육연구소, 정책 연구 과제 모집 KBS 뉴스",
+      "topic": "교육의 변화",
+      "type": "article",
+      "editorial": {
+        "kind": "연구·자료 보도",
+        "reason": "KBS 원출처 · 연구·자료 보도",
         "policy": "quality-v1"
       }
     },
@@ -35,7 +50,7 @@
       "title": "노동장관 \"플랫폼 노동자 '최저보수제' 도입 연구‥노사정 대화해야\"",
       "source": "MBC",
       "sourceUrl": "https://imnews.imbc.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRcXZXWTduY1BPd2prTGFSRUYtdFJrYUxiaEl2SGlBci05dklQNE1aendod2l3d3FLeTJBX05MMkZmbEVWdHpuaW9NWnhQRlNUREcwRVlON2JkRldvZUFCZThLcEROUFRVTl91OFM2YW1vcm1fWjlv0gF3QVVfeXFMUFFxdldZN25jUE93amtMYVJFRi10UmthTGJoSXZIaUFyLTl2SVA0TVp6d2h3aXd3cUt5MkFfTkwyRmZsRVZ0em5pb01aeFBGU1RERzBFWU43YmRGV29lQUJlOEtwRE5QVFVOX3U4UzZhbW9ybV9aOW8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54SWJrNmtRZzkwc1JDZXRvaWVnUkYyRjRJX09sSEg5ZzNMdGs5ZnNaVjRxZHNBT00wU0NMamUxaXFSVDhaM25hRTJxMHhscFZ0dEtJOTVCajJWOExFUnQtM18ya0ZXLUVUMUI5MWlTQ0ZNajdnenY00gF3QVVfeXFMUFFxdldZN25jUE93amtMYVJFRi10UmthTGJoSXZIaUFyLTl2SVA0TVp6d2h3aXd3cUt5MkFfTkwyRmZsRVZ0em5pb01aeFBGU1RERzBFWU43YmRGV29lQUJlOEtwRE5QVFVOX3U4UzZhbW9ybV9aOW8?oc=5",
       "publishedAt": "Wed, 23 Sep 2026 08:04:10 GMT",
       "summary": "노동장관 \"플랫폼 노동자 '최저보수제' 도입 연구‥노사정 대화해야\" MBC 뉴스",
       "topic": "시사·사회",
@@ -107,18 +122,19 @@
       }
     },
     {
-      "title": "‘AI 위험성 경고’ 제이컵 콕슨...“무명의 수학천재에서 AI안전 상징으로”",
-      "source": "한겨레",
-      "sourceUrl": "https://www.hani.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOHhhZm9HSGszMEJ5d0NCT2Y5VzRKazFqVHlfWlJjekhnMUdEMk1pdjhUTWVpWEduekRpNjZKcW9QUmVRMVRtbGpTY1JzV2NoYjBJekJPb25kemRxN21HUWFYemE2QVRNbWFkb2xpeFdLMjRSRDdtQ0YxQlFaaWJ3RTVn?oc=5",
-      "publishedAt": "Fri, 18 Sep 2026 06:36:00 GMT",
-      "summary": "‘AI 위험성 경고’ 제이컵 콕슨...“무명의 수학천재에서 AI안전 상징으로” 한겨레",
-      "topic": "AI 안전",
-      "type": "article",
+      "title": "기술도 K컬처도 아니었다, 로봇이 분석한 한국의 진짜 무기 | 앨리스 휴머노이드 로봇 | 인공지능 인간 로봇 | 세바시 2138회",
+      "source": "세바시 강연 Sebasi Talk",
+      "url": "https://www.youtube.com/watch?v=awO_khHKcjA",
+      "publishedAt": "2026-09-25T09:00:33+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCgheNMc3gGHLsT-RISdCzDQ",
+      "language": "ko",
       "editorial": {
-        "kind": "해설·분석",
-        "reason": "한겨레 원출처 · 해설·분석",
-        "policy": "quality-v1"
+        "kind": "AI 강연·인터뷰(의견 포함)",
+        "reason": "세바시 강연 · 강연·인터뷰 · AI 주제 선별",
+        "policy": "ai-video-v3"
       }
     },
     {
@@ -200,27 +216,11 @@
         "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
         "policy": "ai-video-v3"
       }
-    },
-    {
-      "title": "AlphaGenome Atlas: Understanding the human genome",
-      "source": "Google DeepMind",
-      "url": "https://www.youtube.com/watch?v=U0aToL5C-bQ",
-      "publishedAt": "2026-09-08T13:58:27+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "language": "en",
-      "editorial": {
-        "kind": "AI 연구·해설",
-        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
     }
   ],
   "videoCollection": {
     "status": "ok",
-    "checkedAt": "2026-09-25T00:41:35.882Z",
+    "checkedAt": "2026-09-26T00:46:40.538Z",
     "successfulSources": 10,
     "sourceCount": 10
   },
