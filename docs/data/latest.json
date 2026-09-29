@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-09-28T01:02:35.357Z",
+  "updatedAt": "2026-09-29T02:11:42.754Z",
   "items": [
+    {
+      "title": "한국인 10명 중 4명 생성형 AI 이용한다 MS 보고서…1년 새 15%P 증가",
+      "source": "경향신문",
+      "sourceUrl": "https://www.khan.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBdElCZnk0WGhZbTlEQl90c3NWaWV3S19aUHVCWThXNHN0NlVhOVJrZUlyN0VXeTNuUzhFaDdZTi0xZFAyeGlXS1N5RGwyMHNYN3VWeEdadW9TZ9IBX0FVX3lxTE5BUjBzSGo0S2F2a3pOQnpsTndCUFBQS2sxR3dNZk52bHVhekZ6d29JcmZlQ1E2Sjk1UXNndUdJWEdTLXhrM3kySW14V3BNZjUtTmdZVkNiWXZmUnd3M3ZB?oc=5",
+      "publishedAt": "Mon, 28 Sep 2026 13:10:00 GMT",
+      "summary": "한국인 10명 중 4명 생성형 AI 이용한다 MS 보고서…1년 새 15%P 증가 경향신문",
+      "topic": "AI 트렌드",
+      "type": "article",
+      "editorial": {
+        "kind": "연구·자료 보도",
+        "reason": "경향신문 원출처 · 연구·자료 보도",
+        "policy": "quality-v1"
+      }
+    },
     {
       "title": "전북 미래교육연구소, 정책 연구 과제 모집",
       "source": "KBS",
@@ -32,42 +47,27 @@
       }
     },
     {
-      "title": "노동장관 \"플랫폼 노동자 '최저보수제' 도입 연구‥노사정 대화해야\"",
-      "source": "MBC",
-      "sourceUrl": "https://imnews.imbc.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54SWJrNmtRZzkwc1JDZXRvaWVnUkYyRjRJX09sSEg5ZzNMdGs5ZnNaVjRxZHNBT00wU0NMamUxaXFSVDhaM25hRTJxMHhscFZ0dEtJOTVCajJWOExFUnQtM18ya0ZXLUVUMUI5MWlTQ0ZNajdnenY00gF3QVVfeXFMUFFxdldZN25jUE93amtMYVJFRi10UmthTGJoSXZIaUFyLTl2SVA0TVp6d2h3aXd3cUt5MkFfTkwyRmZsRVZ0em5pb01aeFBGU1RERzBFWU43YmRGV29lQUJlOEtwRE5QVFVOX3U4UzZhbW9ybV9aOW8?oc=5",
-      "publishedAt": "Wed, 23 Sep 2026 08:04:10 GMT",
-      "summary": "노동장관 \"플랫폼 노동자 '최저보수제' 도입 연구‥노사정 대화해야\" MBC 뉴스",
+      "title": "\"기후변화 등 물관리 다중위기…극한 홍수, GDP성장률 3.2%p ↓\"",
+      "source": "연합뉴스",
+      "sourceUrl": "https://www.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LTzZsUEZHWUNWUnFIQ25xRjlHYlRhcUMzVmpWQTFLN21aekQyUElHdjYwRkc3cDVpVVFtcU1VU05rY0VfazF0THBhSE5ZQ2N4MmpfQ1gtUmVtRnfSAWBBVV95cUxPZS00WGRWMXRuYmdDeUxjVXE1QnUycVUycWpKUC05MnJudDc5RGdqOFQ3UFNfWTJqZllZY2lzMVdmcVhmU19zYXZhdUtEYXFDYmFHa2c2ZEhKVDMwbXNNQnY?oc=5",
+      "publishedAt": "Wed, 23 Sep 2026 02:16:00 GMT",
+      "summary": "\"기후변화 등 물관리 다중위기…극한 홍수, GDP성장률 3.2%p ↓\" 연합뉴스",
       "topic": "시사·사회",
       "type": "article",
       "editorial": {
-        "kind": "연구·자료 보도",
-        "reason": "MBC 원출처 · 연구·자료 보도",
+        "kind": "해설·분석",
+        "reason": "연합뉴스 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
     },
     {
-      "title": "노동장관 \"플랫폼노동자 '최저보수제' 연구…노사정 대화 필요\"",
+      "title": "前구글 안전담당 임원 \"AI, SNS보다 아동에 더 위험\"",
       "source": "연합뉴스",
       "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsT2dfeWViaXl5ZGhISnFlRDlCcEhoWHhTdVgtNmFXTGNsV042Zll6czFQUjVERUpiMVRERmJVRkdOcmkxQlpnMW1vOG9CUW9ZYWp0bzg1NC1QSzDSAWBBVV95cUxQaVoxVmtBb1ZYNExLNmlmbEoxVjN0aGMxX2VBbnBwRVlvZE9MekxMQXl6TWNESWlzT0d1YjRubmN1QUxyZklRVGlyZWRfZWZRY1JzR0E5NkM3VGU0T0ZhZU0?oc=5",
-      "publishedAt": "Wed, 23 Sep 2026 04:54:56 GMT",
-      "summary": "노동장관 \"플랫폼노동자 '최저보수제' 연구…노사정 대화 필요\" 연합뉴스",
-      "topic": "시사·사회",
-      "type": "article",
-      "editorial": {
-        "kind": "연구·자료 보도",
-        "reason": "연합뉴스 원출처 · 연구·자료 보도",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "[미중정상회담] AI규제 온도차…트럼프 '현상유지' 시진핑 '인간통제'",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5idjh4UU5FU1Zrb1hPZXNzLXBpMzhhNzdqT002Z3oxR21kdVN5N19DT0NYTGtRVVl3cldqcVNETE1IUjdOMlE4NHJFTXV1VXRPbVcyTjIyVXNMb29PT3hzWtIBYEFVX3lxTE5idjh4UU5FU1Zrb1hPZXNzLXBpMzhhNzdqT002Z3oxR21kdVN5N19DT0NYTGtRVVl3cldqcVNETE1IUjdOMlE4NHJFTXV1VXRPbVcyTjIyVXNMb29PT3hzWg?oc=5",
-      "publishedAt": "Thu, 24 Sep 2026 17:47:15 GMT",
-      "summary": "[미중정상회담] AI규제 온도차…트럼프 '현상유지' 시진핑 '인간통제' 연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5cW1EX045NGtzTG9OTjA0eG85Qjc3Znk5T3E4bEMtZkI4bkx6bk1pUUJIZVZtem10c0hIUU9LRWZhMnpFWjcwYVlCT05sMkJUekdYMWxRbHZEQ2_SAWBBVV95cUxPQllrUjNqMDBibFlvLVVYaUNGR1MtOEduUlNGVGFlVG1kQXFGMlJjM0MtOTJxQTJWUk02TkVCM3g0S0wzbFFSWlJVbTQzb3F5SFAxVzROSWpySW1xOTNoZ0s?oc=5",
+      "publishedAt": "Tue, 22 Sep 2026 22:12:54 GMT",
+      "summary": "前구글 안전담당 임원 \"AI, SNS보다 아동에 더 위험\" 연합뉴스",
       "topic": "AI 안전",
       "type": "article",
       "editorial": {
@@ -75,123 +75,12 @@
         "reason": "연합뉴스 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
-    },
-    {
-      "title": "미국인 10명 중 9명, AI에 \"기대보다 우려\"…규제 강화 요구",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82YU4yQWdzcmhYaHNaTkRsc0NSVlNMbmRqTjBSTldoRUtodVFrbm5jUlR5b3otT0VLSTlsdldCcDNwSkhHR0dEQXFxTnhCUlB5YUtTZklnZGdZOHPSAWBBVV95cUxQYml6ekh2YVNvVzZmVUpRcjFZREJhZGxfQnB0bE01dEg0WTVkTUh1emhXNE5QRkVPYlBHSG1VNnFsRFZJQ0lWelRiUURkRXFFQ09TdDZudWFnanIxTEhrWWg?oc=5",
-      "publishedAt": "Thu, 24 Sep 2026 11:00:35 GMT",
-      "summary": "미국인 10명 중 9명, AI에 \"기대보다 우려\"…규제 강화 요구 연합뉴스",
-      "topic": "AI 트렌드",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "연합뉴스 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "Jev가 AI 틈새 기술? 구글이 바로 반응합니다… 빠른 응답에 돈을 내는 이유 | 세레브라스, Groq도 절대 안되는 기술이라 했죠",
-      "source": "안될공학 - IT 테크 신기술",
-      "url": "https://www.youtube.com/watch?v=qV5p14OSgXU",
-      "publishedAt": "2026-09-22T07:11:05+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
-      "language": "ko",
-      "editorial": {
-        "kind": "AI 연구·해설",
-        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
-    },
-    {
-      "title": "그 직원 학습한 에이전트만 남기고 직원 해고한다면, 그 에이전트는 누구의 것인가? (김서준 해시드 대표)",
-      "source": "티타임즈TV",
-      "url": "https://www.youtube.com/watch?v=ejtSOizIcjQ",
-      "publishedAt": "2026-09-19T22:00:21+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCelFN6fJ6OY6v8pbc_SLiXA",
-      "language": "ko",
-      "editorial": {
-        "kind": "AI 강연·인터뷰(의견 포함)",
-        "reason": "티타임즈TV · 산업 해설·인터뷰 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
-    },
-    {
-      "title": "AI 드라마 PD를 '뽑기사'라고 부르는 이유",
-      "source": "티타임즈TV",
-      "url": "https://www.youtube.com/watch?v=ox1U_mjXimA",
-      "publishedAt": "2026-09-18T09:00:20+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCelFN6fJ6OY6v8pbc_SLiXA",
-      "language": "ko",
-      "editorial": {
-        "kind": "AI 강연·인터뷰(의견 포함)",
-        "reason": "티타임즈TV · 산업 해설·인터뷰 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
-    },
-    {
-      "title": "AI 잘 쓰는 사람들은 왜 까만창을 켤까? Codex·Claude Code·Gemini CLI | 버튼 없는 까만창이 더 많은 일을 할 수 있는 이유",
-      "source": "안될공학 - IT 테크 신기술",
-      "url": "https://www.youtube.com/watch?v=rpUNfIsLyGI",
-      "publishedAt": "2026-09-17T11:02:38+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
-      "language": "ko",
-      "editorial": {
-        "kind": "AI 연구·해설",
-        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
-    },
-    {
-      "title": "How AI is transforming weather prediction",
-      "source": "Google DeepMind",
-      "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
-      "publishedAt": "2026-09-09T16:10:39+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "language": "en",
-      "editorial": {
-        "kind": "AI 연구·해설",
-        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
-    },
-    {
-      "title": "AlphaGenome Atlas: Understanding the human genome",
-      "source": "Google DeepMind",
-      "url": "https://www.youtube.com/watch?v=U0aToL5C-bQ",
-      "publishedAt": "2026-09-08T13:58:27+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "language": "en",
-      "editorial": {
-        "kind": "AI 연구·해설",
-        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
     }
   ],
   "videoCollection": {
-    "status": "ok",
-    "checkedAt": "2026-09-28T01:02:34.784Z",
-    "successfulSources": 10,
+    "status": "unavailable",
+    "checkedAt": "2026-09-29T02:11:42.160Z",
+    "successfulSources": 0,
     "sourceCount": 10
   },
   "editorialPolicy": "quality-v1"
