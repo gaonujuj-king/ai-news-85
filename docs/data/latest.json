@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T02:11:42.754Z",
+  "updatedAt": "2026-09-30T01:25:52.550Z",
   "items": [
     {
       "title": "한국인 10명 중 4명 생성형 AI 이용한다 MS 보고서…1년 새 15%P 증가",
@@ -47,39 +47,39 @@
       }
     },
     {
-      "title": "\"기후변화 등 물관리 다중위기…극한 홍수, GDP성장률 3.2%p ↓\"",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LTzZsUEZHWUNWUnFIQ25xRjlHYlRhcUMzVmpWQTFLN21aekQyUElHdjYwRkc3cDVpVVFtcU1VU05rY0VfazF0THBhSE5ZQ2N4MmpfQ1gtUmVtRnfSAWBBVV95cUxPZS00WGRWMXRuYmdDeUxjVXE1QnUycVUycWpKUC05MnJudDc5RGdqOFQ3UFNfWTJqZllZY2lzMVdmcVhmU19zYXZhdUtEYXFDYmFHa2c2ZEhKVDMwbXNNQnY?oc=5",
-      "publishedAt": "Wed, 23 Sep 2026 02:16:00 GMT",
-      "summary": "\"기후변화 등 물관리 다중위기…극한 홍수, GDP성장률 3.2%p ↓\" 연합뉴스",
-      "topic": "시사·사회",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "연합뉴스 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "前구글 안전담당 임원 \"AI, SNS보다 아동에 더 위험\"",
-      "source": "연합뉴스",
-      "sourceUrl": "https://www.yna.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5cW1EX045NGtzTG9OTjA0eG85Qjc3Znk5T3E4bEMtZkI4bkx6bk1pUUJIZVZtem10c0hIUU9LRWZhMnpFWjcwYVlCT05sMkJUekdYMWxRbHZEQ2_SAWBBVV95cUxPQllrUjNqMDBibFlvLVVYaUNGR1MtOEduUlNGVGFlVG1kQXFGMlJjM0MtOTJxQTJWUk02TkVCM3g0S0wzbFFSWlJVbTQzb3F5SFAxVzROSWpySW1xOTNoZ0s?oc=5",
-      "publishedAt": "Tue, 22 Sep 2026 22:12:54 GMT",
-      "summary": "前구글 안전담당 임원 \"AI, SNS보다 아동에 더 위험\" 연합뉴스",
+      "title": "AI 거물 집결, 안전 협약 서명‥\"자율 규제 중요\"",
+      "source": "MBC",
+      "sourceUrl": "https://imnews.imbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WS0ExeG9tMUNLUTQ2QVlZZDNfSUtmaDdaS0lXay1MaW1ubllxajlSNFdzV2V6ZnVFbU1rSlYtOWxuanl1WmN1RGtZYXVxSmx1aXFpYnREZWxMWEZseTlfNFBlU3lVVC13bnhSWGRQb0ptRFhBcm5pT0530gF6QVVfeXFMUHlSRF9zaUw2S1g2TjJRRlY3bVhGb2JlRFpNc1FaVlZwWWdKREtmOWw1d0Nub3FvVGV2SW9RQXZ4Yl9ZUm1hWnhLSW5LV00wYU5uVzBfcnFfdE9lVjVLaDlKbFlFc0JPcDdzbkhVbnc1UFlFSzRldmJQNGc?oc=5",
+      "publishedAt": "Tue, 29 Sep 2026 21:11:07 GMT",
+      "summary": "AI 거물 집결, 안전 협약 서명‥\"자율 규제 중요\" MBC 뉴스",
       "topic": "AI 안전",
       "type": "article",
       "editorial": {
         "kind": "해설·분석",
-        "reason": "연합뉴스 원출처 · 해설·분석",
+        "reason": "MBC 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
+    {
+      "title": "생성형 AI 이용 늘었지만 도농 격차 1년 새 3배 커졌다",
+      "source": "한국일보",
+      "sourceUrl": "https://www.hankookilbo.com",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Gc3RjUm5YV2Fjek9sZGVqcnFXZ3gtMzk3a0pMNE5OU3hGbjBOTzdGWHFkZlFNRzVFLTUzTF9rUktsNTZuYUdfUHZ2cnl3aXJ4MEVCZmttNXBFTlE5ZDdRLUI2d1RyTEluOXNpWWw1SktUNW_SAXNBVV95cUxNRnN0Y1JuWFdhY3pPbGRlanJxV2d4LTM5N2tKTDROTlN4Rm4wTk83RlhxZGZRTUc1RS01M0xfa1JLbDU2bmFHX1B2dnJ5d2lyeDBFQmZrbTVwRU5ROWQ3US1CNndUckxJbjlzaVlsNUpLVDVv?oc=5",
+      "publishedAt": "Tue, 29 Sep 2026 04:58:00 GMT",
+      "summary": "생성형 AI 이용 늘었지만 도농 격차 1년 새 3배 커졌다 한국일보",
+      "topic": "AI 트렌드",
+      "type": "article",
+      "editorial": {
+        "kind": "해설·분석",
+        "reason": "한국일보 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
     }
   ],
   "videoCollection": {
     "status": "unavailable",
-    "checkedAt": "2026-09-29T02:11:42.160Z",
+    "checkedAt": "2026-09-30T01:25:51.953Z",
     "successfulSources": 0,
     "sourceCount": 10
   },
