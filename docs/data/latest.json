@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-09-30T01:25:52.550Z",
+  "updatedAt": "2026-10-01T01:25:57.705Z",
   "items": [
+    {
+      "title": "오픈AI, 안전 논란 속 24시간 AI 에이전트 ‘닷’ 공개",
+      "source": "경향신문",
+      "sourceUrl": "https://www.khan.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XY21hTnZGWmtPOGxOaUVjYjVLa1NtTGxySHVRdjVyRWxRVE5SUjJFYnVFMDhtcWZYUm0taDhNZFowX0RCN1FtSTRBN2ljeXNieFVUSkpsc0hLa0tZR3Fz0gFfQVVfeXFMTVdjbWFOdkZaa084bE5pRWNiNUtrU21MbHJIdVF2NXJFbFFUTlJSMkVidUUwOG1xZlhSbS1oOE1kWjBfREI3UW1JNEE3aWN5c2J4VVRKSmxzSEtrS1lHcXM?oc=5",
+      "publishedAt": "Wed, 30 Sep 2026 11:44:00 GMT",
+      "summary": "오픈AI, 안전 논란 속 24시간 AI 에이전트 ‘닷’ 공개 경향신문",
+      "topic": "AI 안전",
+      "type": "article",
+      "editorial": {
+        "kind": "해설·분석",
+        "reason": "경향신문 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
     {
       "title": "한국인 10명 중 4명 생성형 AI 이용한다 MS 보고서…1년 새 15%P 증가",
       "source": "경향신문",
@@ -47,17 +62,32 @@
       }
     },
     {
-      "title": "AI 거물 집결, 안전 협약 서명‥\"자율 규제 중요\"",
-      "source": "MBC",
-      "sourceUrl": "https://imnews.imbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WS0ExeG9tMUNLUTQ2QVlZZDNfSUtmaDdaS0lXay1MaW1ubllxajlSNFdzV2V6ZnVFbU1rSlYtOWxuanl1WmN1RGtZYXVxSmx1aXFpYnREZWxMWEZseTlfNFBlU3lVVC13bnhSWGRQb0ptRFhBcm5pT0530gF6QVVfeXFMUHlSRF9zaUw2S1g2TjJRRlY3bVhGb2JlRFpNc1FaVlZwWWdKREtmOWw1d0Nub3FvVGV2SW9RQXZ4Yl9ZUm1hWnhLSW5LV00wYU5uVzBfcnFfdE9lVjVLaDlKbFlFc0JPcDdzbkhVbnc1UFlFSzRldmJQNGc?oc=5",
-      "publishedAt": "Tue, 29 Sep 2026 21:11:07 GMT",
-      "summary": "AI 거물 집결, 안전 협약 서명‥\"자율 규제 중요\" MBC 뉴스",
+      "title": "앤트로픽 “AI 에이전트 되돌릴 수 없는 사고 낼수도···인류에 실존적 위험” 투자자에 경고",
+      "source": "경향신문",
+      "sourceUrl": "https://www.khan.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NT3h0RlpvV3BxTnM3M2VRUkVmZ0hCOVRRQ3RSUnAyN3dHczVLVVl1anFuRndoLXpxSmM0VWRfQ3ZkcjRVM1ZaMERoMzNpbFNac3AtNmMxY0p5YWRUUUZJ0gFfQVVfeXFMT01PeHRGWm9XcHFOczczZVFSRWZnSEI5VFFDdFJScDI3d0dzNUtVWXVqcW5Gd2gtenFKYzRVZF9DdmRyNFUzVlowRGgzM2lsU1pzcC02YzFjSnlhZFRRRkk?oc=5",
+      "publishedAt": "Wed, 30 Sep 2026 05:06:00 GMT",
+      "summary": "앤트로픽 “AI 에이전트 되돌릴 수 없는 사고 낼수도···인류에 실존적 위험” 투자자에 경고 경향신문",
+      "topic": "AI 에이전트",
+      "type": "article",
+      "editorial": {
+        "kind": "해설·분석",
+        "reason": "경향신문 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
+    {
+      "title": "“AI 규제 반대하더니 안전장치 찾나”…교황, 젠슨 황 ‘직격’ [이런뉴스]",
+      "source": "KBS",
+      "sourceUrl": "https://news.kbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pQ2J2Wks5OGZvNHZJbWZ5M0dpeTVJN0pVUjJtQWpScGF5TVJPWXNXVmdDc0IwcERTQkxJVUlXUnlVaHNLNS1Jb1IxQTVReDlKNURtU1loSGlkdDQ?oc=5",
+      "publishedAt": "Tue, 29 Sep 2026 21:05:10 GMT",
+      "summary": "“AI 규제 반대하더니 안전장치 찾나”…교황, 젠슨 황 ‘직격’ [이런뉴스] KBS 뉴스",
       "topic": "AI 안전",
       "type": "article",
       "editorial": {
         "kind": "해설·분석",
-        "reason": "MBC 원출처 · 해설·분석",
+        "reason": "KBS 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
     },
@@ -67,7 +97,7 @@
       "sourceUrl": "https://www.hankookilbo.com",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Gc3RjUm5YV2Fjek9sZGVqcnFXZ3gtMzk3a0pMNE5OU3hGbjBOTzdGWHFkZlFNRzVFLTUzTF9rUktsNTZuYUdfUHZ2cnl3aXJ4MEVCZmttNXBFTlE5ZDdRLUI2d1RyTEluOXNpWWw1SktUNW_SAXNBVV95cUxNRnN0Y1JuWFdhY3pPbGRlanJxV2d4LTM5N2tKTDROTlN4Rm4wTk83RlhxZGZRTUc1RS01M0xfa1JLbDU2bmFHX1B2dnJ5d2lyeDBFQmZrbTVwRU5ROWQ3US1CNndUckxJbjlzaVlsNUpLVDVv?oc=5",
       "publishedAt": "Tue, 29 Sep 2026 04:58:00 GMT",
-      "summary": "생성형 AI 이용 늘었지만 도농 격차 1년 새 3배 커졌다 한국일보",
+      "summary": "생성형 AI 이용 늘었지만 도농 격차 1년 새 3배 커졌다 hankookilbo.com",
       "topic": "AI 트렌드",
       "type": "article",
       "editorial": {
@@ -75,12 +105,28 @@
         "reason": "한국일보 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
+    },
+    {
+      "title": "엔비디아 없이 AI 칩 가능한가? GPU·TPU·xPU 경쟁 속 진짜 셈법 분석",
+      "source": "안될공학 - IT 테크 신기술",
+      "url": "https://www.youtube.com/watch?v=Ez4Su9C-uiQ",
+      "publishedAt": "2026-09-29T10:00:34+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
+      "language": "ko",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
+        "policy": "ai-video-v3"
+      }
     }
   ],
   "videoCollection": {
-    "status": "unavailable",
-    "checkedAt": "2026-09-30T01:25:51.953Z",
-    "successfulSources": 0,
+    "status": "partial",
+    "checkedAt": "2026-10-01T01:25:57.198Z",
+    "successfulSources": 3,
     "sourceCount": 10
   },
   "editorialPolicy": "quality-v1"
