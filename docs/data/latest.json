@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:25:57.705Z",
+  "updatedAt": "2026-10-02T01:46:16.337Z",
   "items": [
     {
       "title": "오픈AI, 안전 논란 속 24시간 AI 에이전트 ‘닷’ 공개",
@@ -8,7 +8,7 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XY21hTnZGWmtPOGxOaUVjYjVLa1NtTGxySHVRdjVyRWxRVE5SUjJFYnVFMDhtcWZYUm0taDhNZFowX0RCN1FtSTRBN2ljeXNieFVUSkpsc0hLa0tZR3Fz0gFfQVVfeXFMTVdjbWFOdkZaa084bE5pRWNiNUtrU21MbHJIdVF2NXJFbFFUTlJSMkVidUUwOG1xZlhSbS1oOE1kWjBfREI3UW1JNEE3aWN5c2J4VVRKSmxzSEtrS1lHcXM?oc=5",
       "publishedAt": "Wed, 30 Sep 2026 11:44:00 GMT",
       "summary": "오픈AI, 안전 논란 속 24시간 AI 에이전트 ‘닷’ 공개 경향신문",
-      "topic": "AI 안전",
+      "topic": "AI 에이전트",
       "type": "article",
       "editorial": {
         "kind": "해설·분석",
@@ -32,51 +32,6 @@
       }
     },
     {
-      "title": "전북 미래교육연구소, 정책 연구 과제 모집",
-      "source": "KBS",
-      "sourceUrl": "https://news.kbs.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03aUdWeS1SOHNsWUZTdEUycDZmRkZQMDBPaFAzcGxfcUY1MlRsbDA3MU5qd1VWLUEzU196dHowRF81a2sxaG9JNDRGaFlhbERfSGZLQ1F4NmpIcEk?oc=5",
-      "publishedAt": "Thu, 24 Sep 2026 22:48:00 GMT",
-      "summary": "전북 미래교육연구소, 정책 연구 과제 모집 KBS 뉴스",
-      "topic": "교육의 변화",
-      "type": "article",
-      "editorial": {
-        "kind": "연구·자료 보도",
-        "reason": "KBS 원출처 · 연구·자료 보도",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "오픈AI 에이전트, 호주 보건 통계 시스템 침입…“정부 해킹 첫 사례”",
-      "source": "한겨레",
-      "sourceUrl": "https://www.hani.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb1V3UkNWSHZCM3BMWk42QjA0dGlHM1pPV0FBZWZEVDNtTmFhcTRySUtOTW84VVIxNmtKUHJZLWN2MXdNUlBYa0c1ODZUOWIxeEZ5REk5RXJ6QWNOdm1hN1JqR2hwSkRmSnRDbjV1eW1UaFZoelhiQkhfOXM1cEdYVkpn?oc=5",
-      "publishedAt": "Thu, 24 Sep 2026 05:20:00 GMT",
-      "summary": "오픈AI 에이전트, 호주 보건 통계 시스템 침입…“정부 해킹 첫 사례” 한겨레",
-      "topic": "AI 에이전트",
-      "type": "article",
-      "editorial": {
-        "kind": "연구·자료 보도",
-        "reason": "한겨레 원출처 · 연구·자료 보도",
-        "policy": "quality-v1"
-      }
-    },
-    {
-      "title": "앤트로픽 “AI 에이전트 되돌릴 수 없는 사고 낼수도···인류에 실존적 위험” 투자자에 경고",
-      "source": "경향신문",
-      "sourceUrl": "https://www.khan.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NT3h0RlpvV3BxTnM3M2VRUkVmZ0hCOVRRQ3RSUnAyN3dHczVLVVl1anFuRndoLXpxSmM0VWRfQ3ZkcjRVM1ZaMERoMzNpbFNac3AtNmMxY0p5YWRUUUZJ0gFfQVVfeXFMT01PeHRGWm9XcHFOczczZVFSRWZnSEI5VFFDdFJScDI3d0dzNUtVWXVqcW5Gd2gtenFKYzRVZF9DdmRyNFUzVlowRGgzM2lsU1pzcC02YzFjSnlhZFRRRkk?oc=5",
-      "publishedAt": "Wed, 30 Sep 2026 05:06:00 GMT",
-      "summary": "앤트로픽 “AI 에이전트 되돌릴 수 없는 사고 낼수도···인류에 실존적 위험” 투자자에 경고 경향신문",
-      "topic": "AI 에이전트",
-      "type": "article",
-      "editorial": {
-        "kind": "해설·분석",
-        "reason": "경향신문 원출처 · 해설·분석",
-        "policy": "quality-v1"
-      }
-    },
-    {
       "title": "“AI 규제 반대하더니 안전장치 찾나”…교황, 젠슨 황 ‘직격’ [이런뉴스]",
       "source": "KBS",
       "sourceUrl": "https://news.kbs.co.kr",
@@ -95,9 +50,9 @@
       "title": "생성형 AI 이용 늘었지만 도농 격차 1년 새 3배 커졌다",
       "source": "한국일보",
       "sourceUrl": "https://www.hankookilbo.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Gc3RjUm5YV2Fjek9sZGVqcnFXZ3gtMzk3a0pMNE5OU3hGbjBOTzdGWHFkZlFNRzVFLTUzTF9rUktsNTZuYUdfUHZ2cnl3aXJ4MEVCZmttNXBFTlE5ZDdRLUI2d1RyTEluOXNpWWw1SktUNW_SAXNBVV95cUxNRnN0Y1JuWFdhY3pPbGRlanJxV2d4LTM5N2tKTDROTlN4Rm4wTk83RlhxZGZRTUc1RS01M0xfa1JLbDU2bmFHX1B2dnJ5d2lyeDBFQmZrbTVwRU5ROWQ3US1CNndUckxJbjlzaVlsNUpLVDVv?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WNjdWMEs1bUJTeWk5T1JsQXNKQ2U2NU9DVzhnbWxrTlBDSlJNRHBSM3BkVGNPOC10NDdGYzNXM0ZpTTZnYlJRUEJ0SU9xU2k5NEdrZ3JxS250NUVaNTZMT3IzdlFDbGhRNmVIS1RB0gFzQVVfeXFMTUZzdGNSblhXYWN6T2xkZWpycVdneC0zOTdrSkw0Tk5TeEZuME5PN0ZYcWRmUU1HNUUtNTNMX2tSS2w1Nm5hR19QdnZyeXdpcngwRUJma201cEVOUTlkN1EtQjZ3VHJMSW45c2lZbDVKS1Q1bw?oc=5",
       "publishedAt": "Tue, 29 Sep 2026 04:58:00 GMT",
-      "summary": "생성형 AI 이용 늘었지만 도농 격차 1년 새 3배 커졌다 hankookilbo.com",
+      "summary": "생성형 AI 이용 늘었지만 도농 격차 1년 새 3배 커졌다 한국일보",
       "topic": "AI 트렌드",
       "type": "article",
       "editorial": {
@@ -107,26 +62,42 @@
       }
     },
     {
-      "title": "엔비디아 없이 AI 칩 가능한가? GPU·TPU·xPU 경쟁 속 진짜 셈법 분석",
-      "source": "안될공학 - IT 테크 신기술",
-      "url": "https://www.youtube.com/watch?v=Ez4Su9C-uiQ",
-      "publishedAt": "2026-09-29T10:00:34+00:00",
+      "title": "From deepfakes to DNA: the science of watermarking AI",
+      "source": "Google DeepMind",
+      "url": "https://www.youtube.com/watch?v=HIUzrxQxTtw",
+      "publishedAt": "2026-10-01T16:37:46+00:00",
       "summary": "",
       "topic": "영상",
       "type": "video",
-      "channelId": "UCeN2YeJcBCRJoXgzF_OU3qw",
-      "language": "ko",
+      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "language": "en",
       "editorial": {
         "kind": "AI 연구·해설",
-        "reason": "안될공학 · 기술 해설 · AI 주제 선별",
+        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
+        "policy": "ai-video-v3"
+      }
+    },
+    {
+      "title": "How AI is transforming weather prediction",
+      "source": "Google DeepMind",
+      "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
+      "publishedAt": "2026-09-09T16:10:39+00:00",
+      "summary": "",
+      "topic": "영상",
+      "type": "video",
+      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "language": "en",
+      "editorial": {
+        "kind": "AI 연구·해설",
+        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
         "policy": "ai-video-v3"
       }
     }
   ],
   "videoCollection": {
     "status": "partial",
-    "checkedAt": "2026-10-01T01:25:57.198Z",
-    "successfulSources": 3,
+    "checkedAt": "2026-10-02T01:46:15.765Z",
+    "successfulSources": 1,
     "sourceCount": 10
   },
   "editorialPolicy": "quality-v1"
