@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:46:16.337Z",
+  "updatedAt": "2026-10-03T01:18:56.238Z",
   "items": [
     {
       "title": "오픈AI, 안전 논란 속 24시간 AI 에이전트 ‘닷’ 공개",
@@ -32,11 +32,26 @@
       }
     },
     {
+      "title": "최교진 교육장관, 학생 마음건강 정책자문단 12인 위촉",
+      "source": "연합뉴스",
+      "sourceUrl": "https://www.yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TdndMR3BFLTNsa19WZmdXbmVLZGQ4eGpBQktwNTVQeU5ZVDYwYkY4YkpXTHdtQU5pU08zUGVNTXI4V1o0V0dUdklvS1owWVJmSmJQZDRjMHFSUU3SAWBBVV95cUxOaDBkc2ZtNmJ6V0pGQ19DZE9YdG5FM0R2R0YwWUtKVUF4X0lTZGtyS3hPX1pBRTBuQUp4U3FEaG5fUkViMXc5MnZrbGE2TjBJNzdEb2xXQVBxaVloOFcyNXM?oc=5",
+      "publishedAt": "Wed, 30 Sep 2026 00:46:50 GMT",
+      "summary": "최교진 교육장관, 학생 마음건강 정책자문단 12인 위촉 연합뉴스",
+      "topic": "교육의 변화",
+      "type": "article",
+      "editorial": {
+        "kind": "해설·분석",
+        "reason": "연합뉴스 원출처 · 해설·분석",
+        "policy": "quality-v1"
+      }
+    },
+    {
       "title": "“AI 규제 반대하더니 안전장치 찾나”…교황, 젠슨 황 ‘직격’ [이런뉴스]",
       "source": "KBS",
       "sourceUrl": "https://news.kbs.co.kr",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pQ2J2Wks5OGZvNHZJbWZ5M0dpeTVJN0pVUjJtQWpScGF5TVJPWXNXVmdDc0IwcERTQkxJVUlXUnlVaHNLNS1Jb1IxQTVReDlKNURtU1loSGlkdDQ?oc=5",
-      "publishedAt": "Tue, 29 Sep 2026 21:05:10 GMT",
+      "publishedAt": "Tue, 29 Sep 2026 21:00:00 GMT",
       "summary": "“AI 규제 반대하더니 안전장치 찾나”…교황, 젠슨 황 ‘직격’ [이런뉴스] KBS 뉴스",
       "topic": "AI 안전",
       "type": "article",
@@ -96,8 +111,8 @@
   ],
   "videoCollection": {
     "status": "partial",
-    "checkedAt": "2026-10-02T01:46:15.765Z",
-    "successfulSources": 1,
+    "checkedAt": "2026-10-03T01:18:55.477Z",
+    "successfulSources": 2,
     "sourceCount": 10
   },
   "editorialPolicy": "quality-v1"
