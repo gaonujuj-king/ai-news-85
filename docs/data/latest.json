@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-03T01:18:56.238Z",
+  "updatedAt": "2026-10-04T01:52:13.489Z",
   "items": [
     {
       "title": "오픈AI, 안전 논란 속 24시간 AI 에이전트 ‘닷’ 공개",
       "source": "경향신문",
       "sourceUrl": "https://www.khan.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XY21hTnZGWmtPOGxOaUVjYjVLa1NtTGxySHVRdjVyRWxRVE5SUjJFYnVFMDhtcWZYUm0taDhNZFowX0RCN1FtSTRBN2ljeXNieFVUSkpsc0hLa0tZR3Fz0gFfQVVfeXFMTVdjbWFOdkZaa084bE5pRWNiNUtrU21MbHJIdVF2NXJFbFFUTlJSMkVidUUwOG1xZlhSbS1oOE1kWjBfREI3UW1JNEE3aWN5c2J4VVRKSmxzSEtrS1lHcXM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JVGVibHUwY1lOU2ZWbjg4eGJWckk2VzFYSnF1SjRsS255MzBFbjNDT3hnU29EbHRXdHFhQ25Xc29wVjBrTjRqYVdEOUwyaFNFUzVFMmJ2cnc1QdIBX0FVX3lxTE1XY21hTnZGWmtPOGxOaUVjYjVLa1NtTGxySHVRdjVyRWxRVE5SUjJFYnVFMDhtcWZYUm0taDhNZFowX0RCN1FtSTRBN2ljeXNieFVUSkpsc0hLa0tZR3Fz?oc=5",
       "publishedAt": "Wed, 30 Sep 2026 11:44:00 GMT",
       "summary": "오픈AI, 안전 논란 속 24시간 AI 에이전트 ‘닷’ 공개 경향신문",
-      "topic": "AI 에이전트",
+      "topic": "AI 안전",
       "type": "article",
       "editorial": {
         "kind": "해설·분석",
@@ -37,7 +37,7 @@
       "sourceUrl": "https://www.yna.co.kr",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TdndMR3BFLTNsa19WZmdXbmVLZGQ4eGpBQktwNTVQeU5ZVDYwYkY4YkpXTHdtQU5pU08zUGVNTXI4V1o0V0dUdklvS1owWVJmSmJQZDRjMHFSUU3SAWBBVV95cUxOaDBkc2ZtNmJ6V0pGQ19DZE9YdG5FM0R2R0YwWUtKVUF4X0lTZGtyS3hPX1pBRTBuQUp4U3FEaG5fUkViMXc5MnZrbGE2TjBJNzdEb2xXQVBxaVloOFcyNXM?oc=5",
       "publishedAt": "Wed, 30 Sep 2026 00:46:50 GMT",
-      "summary": "최교진 교육장관, 학생 마음건강 정책자문단 12인 위촉 연합뉴스",
+      "summary": "최교진 교육장관, 학생 마음건강 정책자문단 12인 위촉 yna.co.kr",
       "topic": "교육의 변화",
       "type": "article",
       "editorial": {
@@ -75,44 +75,12 @@
         "reason": "한국일보 원출처 · 해설·분석",
         "policy": "quality-v1"
       }
-    },
-    {
-      "title": "From deepfakes to DNA: the science of watermarking AI",
-      "source": "Google DeepMind",
-      "url": "https://www.youtube.com/watch?v=HIUzrxQxTtw",
-      "publishedAt": "2026-10-01T16:37:46+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "language": "en",
-      "editorial": {
-        "kind": "AI 연구·해설",
-        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
-    },
-    {
-      "title": "How AI is transforming weather prediction",
-      "source": "Google DeepMind",
-      "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
-      "publishedAt": "2026-09-09T16:10:39+00:00",
-      "summary": "",
-      "topic": "영상",
-      "type": "video",
-      "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "language": "en",
-      "editorial": {
-        "kind": "AI 연구·해설",
-        "reason": "Google DeepMind · 연구기관 설명 · AI 주제 선별",
-        "policy": "ai-video-v3"
-      }
     }
   ],
   "videoCollection": {
-    "status": "partial",
-    "checkedAt": "2026-10-03T01:18:55.477Z",
-    "successfulSources": 2,
+    "status": "unavailable",
+    "checkedAt": "2026-10-04T01:52:12.801Z",
+    "successfulSources": 0,
     "sourceCount": 10
   },
   "editorialPolicy": "quality-v1"
